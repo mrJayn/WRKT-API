@@ -1,0 +1,1676 @@
+{
+    "Chest": [
+        {
+            "name": "Bench Press",
+            "equipment": "barbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Incline Bench Press",
+            "equipment": "barbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Floor Press",
+            "equipment": "barbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Decline Bench Press",
+            "equipment": "barbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Landmine Chest Press",
+            "equipment": "barbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Flat DB Press",
+            "equipment": "dumbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Incline DB Press",
+            "equipment": "dumbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Flat DB Fly",
+            "equipment": "dumbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Incline DB Fly",
+            "equipment": "dumbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Incline DB Hex Press",
+            "equipment": "dumbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "DB Floor Press",
+            "equipment": "dumbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "DB Pullovers",
+            "equipment": "dumbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Flat DB Press",
+            "equipment": "dumbell",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "High Pulley Cable Crossover",
+            "equipment": "cable",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Incline Cable Fly",
+            "equipment": "cable",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Low Pulley Cable Crossover",
+            "equipment": "cable",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Mid Pulley Cable Crossover",
+            "equipment": "cable",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "SM Flat Bench Press",
+            "equipment": "sm",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "SM Floor Press",
+            "equipment": "sm",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "H.S. Incline Press",
+            "equipment": "machine",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Flat Chest Press Machine",
+            "equipment": "machine",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "H.S. Decline Press",
+            "equipment": "machine",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Pec Deck",
+            "equipment": "machine",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Dips",
+            "equipment": "bodyweight",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Incline Push Ups",
+            "equipment": "bodyweight",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Push Ups",
+            "equipment": "bodyweight",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Flat Plate-Loaded Press",
+            "equipment": "freeweight",
+            "bodypart": "chest",
+            "enabled": true
+        },
+        {
+            "name": "Plate Raise (Chest)",
+            "equipment": "freeweight",
+            "bodypart": "chest",
+            "enabled": true
+        }
+    ],
+    "Back": [
+        {
+            "name": "Barbell Deadlift",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Overhand Bent Over Barbell Row",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Underhand Bent Over Barbell Row",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Rack Pulls",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Barbell T-Bar Rows",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Chest Supported Row",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "T-Bar Row",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Close Grip Barbell Upright Row",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Ez Bar Pullovers",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Lying Incline Barbell Row",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Pendlay Row",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Snatch Grip Rack Pulls",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Trap Bar Deadlift",
+            "equipment": "barbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Lying Incline DB Overhand Rows",
+            "equipment": "dumbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Lying Incline Neutral Grip Rows",
+            "equipment": "dumbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm DB Row",
+            "equipment": "dumbell",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Lat Pulldown",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Underhand Lat Pulldown",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Wide Grip Lat Pulldowns",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Behind The Neck Lat Pulldown",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Cable Pullovers",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Close Grip Lat Pulldown (Front)",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Cable Row",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Lat Pulldown",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Straight Bar Cable Row",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Underhand Cable Row",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "V-Bar Cable Row",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "V-Bar Close Grip Pulldown",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "V-Bar Pulldowns Into The Waist",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Wide Grip Lat Pulldown (Behind Neck)",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Dante Rows",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Leaning Rope Pulldown",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Rope Pulldown",
+            "equipment": "cable",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "SM Bent Over Rows",
+            "equipment": "sm",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "SM Underhand Bent Over Rows",
+            "equipment": "sm",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "H.S. Overhand Rows",
+            "equipment": "machine",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "H.S. One-Arm Row",
+            "equipment": "machine",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Iso-Lateral Front Lat Pulldown",
+            "equipment": "machine",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Iso-Lateral High Row",
+            "equipment": "machine",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Iso-Lateral Low Row",
+            "equipment": "machine",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Machine Pullover",
+            "equipment": "machine",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Chin Ups",
+            "equipment": "bodyweight",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Pull Ups",
+            "equipment": "bodyweight",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Hyperextenions (Back)",
+            "equipment": "bodyweight",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Inverted Pull Up",
+            "equipment": "bodyweight",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Rack Chins",
+            "equipment": "bodyweight",
+            "bodypart": "back",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Shrugs",
+            "equipment": "barbell",
+            "bodypart": "traps",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Behind The Back Shrugs",
+            "equipment": "barbell",
+            "bodypart": "traps",
+            "enabled": true
+        },
+        {
+            "name": "DB Shrug",
+            "equipment": "dumbell",
+            "bodypart": "traps",
+            "enabled": true
+        },
+        {
+            "name": "Cable Shrugs",
+            "equipment": "cable",
+            "bodypart": "traps",
+            "enabled": true
+        },
+        {
+            "name": "SM Shrugs",
+            "equipment": "sm",
+            "bodypart": "traps",
+            "enabled": true
+        },
+        {
+            "name": "SM Behind The Back Shrug",
+            "equipment": "sm",
+            "bodypart": "traps",
+            "enabled": true
+        }
+    ],
+    "Arms": [
+        {
+            "name": "21s",
+            "equipment": "barbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Curls",
+            "equipment": "barbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Concentration Curl",
+            "equipment": "barbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Seated Barbell Curl",
+            "equipment": "barbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Wide Grip Barbell Curls",
+            "equipment": "barbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Drag Curls",
+            "equipment": "barbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Close Grip Barbell Curls",
+            "equipment": "barbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Barbell Curl",
+            "equipment": "barbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "EZ Bar Curls",
+            "equipment": "ez-bar",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "EZ Bar Close Grip Curls",
+            "equipment": "ez-bar",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "EZ Bar Drag Curl",
+            "equipment": "ez-bar",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Ez Bar Preacher Curl",
+            "equipment": "ez-bar",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Ez Bar Spider Curl",
+            "equipment": "ez-bar",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Lying Incline EZ Bar Spider Curl",
+            "equipment": "ez-bar",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "EZ Bar Reverse Grip Curls",
+            "equipment": "ez-bar",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Seated Alternate DB Curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Seated DB Hammer Curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Alt. DB Curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Alt. DB Hammer Curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "DB Curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Cross Body Hammer Curl",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "DB Concentration Curl",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "DB Preacher Curl",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Concentration Hammer Curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm DB Incline Preacher Curl",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Alt. Static Hold DB Curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Lying Incline DB Spider Curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Rope Cable Hammer Curls",
+            "equipment": "cable",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Straight Bar Cable Curls",
+            "equipment": "cable",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Cable Drag Curls",
+            "equipment": "cable",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Reverse Grip Cable Curls",
+            "equipment": "cable",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Lying Cable Curl",
+            "equipment": "cable",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Cable Concentration Curls",
+            "equipment": "cable",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Cable Curl",
+            "equipment": "cable",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Overhead Cable Concentration Curl",
+            "equipment": "cable",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Machine Preacher Curl",
+            "equipment": "machine",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Machine Preacher Curl",
+            "equipment": "machine",
+            "bodypart": "biceps",
+            "enabled": true
+        },
+        {
+            "name": "Barbell JM Press",
+            "equipment": "barbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Close Grip Bench",
+            "equipment": "barbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Incline Close Grip Bench",
+            "equipment": "barbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Skullcrushers ( To Head )",
+            "equipment": "barbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Overhead Ez Bar Tricep Extensions",
+            "equipment": "barbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Skullcrushers ( Behind Head )",
+            "equipment": "barbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Incline EZ Bar Skullcrushers",
+            "equipment": "barbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Off The Floor Skullcrushers",
+            "equipment": "barbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "DB Tricep Kickbacks",
+            "equipment": "dumbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Incline Tate Press",
+            "equipment": "dumbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Cross Body DB Tricep Extension",
+            "equipment": "dumbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Seated Overhead Two Arm DB Tricep Extension",
+            "equipment": "dumbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Flat DB Skullcrushers",
+            "equipment": "dumbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Incline DB Skullcrushers",
+            "equipment": "dumbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Single Arm Overhead DB Tricep Ext",
+            "equipment": "dumbell",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Rope Tricep Pushdowns",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Straight Bar Tricep Pushdowns",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Overhand Tricep Pushdowns",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Straight Bar Pushdowns With Stretch",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Tricep Cable Kickbacks",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Overhead Rope Tricep Extensions",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Overhead Tricep Cable Extensions",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Overhead Rope Tricep Extensions (Bent Over)",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Seated Overhead Tricep Cable Extension",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Two Arm Cable Tricep Samuri Extension",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Cross Body Cable Tricep Extensions",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Underhand Tricep Pushdowns",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Underhand Tricep Extensions",
+            "equipment": "cable",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "SM Flat Close Grip Bench",
+            "equipment": "sm",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "SM JM Press",
+            "equipment": "sm",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "SM Incline Close Grip Bench Press",
+            "equipment": "sm",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "SM Incline Skullcrusher",
+            "equipment": "sm",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Seated Dip Machine",
+            "equipment": "machine",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Bench Dips",
+            "equipment": "bodyweight",
+            "bodypart": "triceps",
+            "enabled": true
+        },
+        {
+            "name": "Close Grip Diamond Push Ups",
+            "equipment": "bodyweight",
+            "bodypart": "triceps",
+            "enabled": true
+        }
+    ],
+    "Shoulders": [
+        {
+            "name": "Seated Shoulder Pin Press",
+            "equipment": "barbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated Barbell Shoulder Press",
+            "equipment": "barbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Military Press",
+            "equipment": "barbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Bradford Press",
+            "equipment": "barbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Landmine One-Arm Shoulder Press",
+            "equipment": "barbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Front Raise",
+            "equipment": "barbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated Barbell Behind The Neck Shoulder Press",
+            "equipment": "barbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Behind The Neck Barbell Press",
+            "equipment": "barbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Push Press",
+            "equipment": "barbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Lying Incline EZ Bar Front Raise",
+            "equipment": "ez-bar",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Underhand Ez Bar Front Raise",
+            "equipment": "ez-bar",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated DB Shoulder Press",
+            "equipment": "dumbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated Alternate DB Press",
+            "equipment": "dumbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "DB Front Raises",
+            "equipment": "dumbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated One-Arm Shoulder DB Press",
+            "equipment": "dumbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated Incline One-Arm Hammer Grip Front Raise",
+            "equipment": "dumbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Lying Incline DB Front Raise",
+            "equipment": "dumbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Incline Underhand Front Raise",
+            "equipment": "dumbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated Arnold Press",
+            "equipment": "dumbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Hammer-DB Crossbody Front Raises",
+            "equipment": "dumbell",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Cable Front Raise",
+            "equipment": "cable",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "SM Seated Shoulder Press",
+            "equipment": "sm",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "SM Behind Neck Shoulder Press",
+            "equipment": "sm",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated Shoulder Press Machine",
+            "equipment": "machine",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Reverse Shoulder Press Machine",
+            "equipment": "machine",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Plate Front Raises",
+            "equipment": "freeweight",
+            "bodypart": "front delts",
+            "enabled": true
+        },
+        {
+            "name": "Leaning Ez Bar Side Lateral Raises",
+            "equipment": "ez-bar",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated DB Side Lateral Raises",
+            "equipment": "dumbell",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "DB Side Lateral Raises",
+            "equipment": "dumbell",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "Chest Supported DB Lateral Raise",
+            "equipment": "dumbell",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "Lying Incline DB Side Lateral Raise",
+            "equipment": "dumbell",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "DB Y-Raise",
+            "equipment": "dumbell",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "DB Side Lateral Partials",
+            "equipment": "dumbell",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm DB Scarecrow",
+            "equipment": "dumbell",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Leaning Cable Side Lateral Raise",
+            "equipment": "cable",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated Side Lateral Raise Machine",
+            "equipment": "machine",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "Side Lateral Raise Machine",
+            "equipment": "machine",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "Side Lateral Plate Raise",
+            "equipment": "freeweight",
+            "bodypart": "side delts",
+            "enabled": true
+        },
+        {
+            "name": "Wide Grip Barbell Upright Row",
+            "equipment": "barbell",
+            "bodypart": "side/rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Ez Bar Front Raise",
+            "equipment": "ez-bar",
+            "bodypart": "side/rear delts",
+            "enabled": true
+        },
+        {
+            "name": "DB Upright Row",
+            "equipment": "dumbell",
+            "bodypart": "side/rear delts",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Leaning Upright Row",
+            "equipment": "dumbell",
+            "bodypart": "side/rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Cable Upright Row",
+            "equipment": "cable",
+            "bodypart": "side/rear delts",
+            "enabled": true
+        },
+        {
+            "name": "SM Upright Row",
+            "equipment": "sm",
+            "bodypart": "side/rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Rear Delt Barbell Row",
+            "equipment": "barbell",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Landmine Rear Delt Raise",
+            "equipment": "barbell",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Rear Delt Swings",
+            "equipment": "dumbell",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Seated Rear Delt Raises",
+            "equipment": "dumbell",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Lying Incline Rear Delt Row",
+            "equipment": "dumbell",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Bent Over Rear Delt Fly",
+            "equipment": "dumbell",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Two Arm Rear Delt Fly",
+            "equipment": "cable",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "One-Arm Cable Rear Delt Fly",
+            "equipment": "cable",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Facepulls",
+            "equipment": "cable",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Reverse Pec Deck",
+            "equipment": "machine",
+            "bodypart": "rear delts",
+            "enabled": true
+        },
+        {
+            "name": "Band Pull Aparts",
+            "equipment": "bands",
+            "bodypart": "rear delts",
+            "enabled": true
+        }
+    ],
+    "Legs": [
+        {
+            "name": "Barbell Back Squat",
+            "equipment": "barbell",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Lunge",
+            "equipment": "barbell",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Walking Lunges",
+            "equipment": "barbell",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "Landmine Squat",
+            "equipment": "barbell",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Box Squat",
+            "equipment": "barbell",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "DB Walking Lunges",
+            "equipment": "dumbell",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "V-Bar Cable Squat",
+            "equipment": "cable",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "SM Squat",
+            "equipment": "sm",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "SM Lunge",
+            "equipment": "sm",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "SM Box Squat",
+            "equipment": "sm",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "Leg Press",
+            "equipment": "machine",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "Single-Leg Leg Press",
+            "equipment": "machine",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "Vertical Leg Press",
+            "equipment": "machine",
+            "bodypart": "quads/hams",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Front Squat",
+            "equipment": "barbell",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Step Ups",
+            "equipment": "barbell",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Cannonball Squat",
+            "equipment": "barbell",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Pendulum Squat",
+            "equipment": "barbell",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "DB Bulgarian Split Squat",
+            "equipment": "dumbell",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "DB Goblet Squat",
+            "equipment": "dumbell",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "DB Step Ups",
+            "equipment": "dumbell",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "SM Bulgarian Squat",
+            "equipment": "sm",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "SM Front Squat",
+            "equipment": "sm",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "SM Sissy Squat",
+            "equipment": "sm",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Hack Squat",
+            "equipment": "machine",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Leg Extensions",
+            "equipment": "machine",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Single-Leg Leg Extensions",
+            "equipment": "machine",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Bodyweight Sissy Squat",
+            "equipment": "bodyweight",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Sissy Squat",
+            "equipment": "bodyweight",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Pistol Squats",
+            "equipment": "bodyweight",
+            "bodypart": "quads",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Good Mornings",
+            "equipment": "barbell",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "Barbell RDL",
+            "equipment": "barbell",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "One Leg Stiff Leg Deadlift",
+            "equipment": "barbell",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "Landmine Stiff Leg Deadlift",
+            "equipment": "barbell",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "DB Romanian Deadlift",
+            "equipment": "dumbell",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "Lying DB Hamstring Curl",
+            "equipment": "dumbell",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "SM Good Morning",
+            "equipment": "sm",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "SM Romanian Deadlift",
+            "equipment": "sm",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "Lying Hamstring Curl",
+            "equipment": "machine",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "Seated Leg Curl",
+            "equipment": "machine",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "Single-Leg Hamstring Curl",
+            "equipment": "machine",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "Supported Hamstring Curl",
+            "equipment": "bodyweight",
+            "bodypart": "hamstrings",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Reverse Lunge",
+            "equipment": "barbell",
+            "bodypart": "hams/glutes",
+            "enabled": true
+        },
+        {
+            "name": "Wide Stance Barbell Back Squat",
+            "equipment": "barbell",
+            "bodypart": "hams/glutes",
+            "enabled": true
+        },
+        {
+            "name": "DB Reverse Lunge",
+            "equipment": "dumbell",
+            "bodypart": "hams/glutes",
+            "enabled": true
+        },
+        {
+            "name": "DB Sumo Squat",
+            "equipment": "dumbell",
+            "bodypart": "hams/glutes",
+            "enabled": true
+        },
+        {
+            "name": "SM Sumo Squat",
+            "equipment": "sm",
+            "bodypart": "hams/glutes",
+            "enabled": true
+        },
+        {
+            "name": "SM Hip Thrust",
+            "equipment": "sm",
+            "bodypart": "hams/glutes",
+            "enabled": true
+        },
+        {
+            "name": "Hyperextensions",
+            "equipment": "bodyweight",
+            "bodypart": "hams/glutes",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Hip Thrust",
+            "equipment": "barbell",
+            "bodypart": "glutes",
+            "enabled": true
+        },
+        {
+            "name": "Barbell Lateral Lunges",
+            "equipment": "barbell",
+            "bodypart": "ab/adductors",
+            "enabled": true
+        },
+        {
+            "name": "Abductor Machine",
+            "equipment": "machine",
+            "bodypart": "ab/adductors",
+            "enabled": true
+        },
+        {
+            "name": "Adduction Machine",
+            "equipment": "machine",
+            "bodypart": "ab/adductors",
+            "enabled": true
+        },
+        {
+            "name": "Seated DB Calf Raise",
+            "equipment": "dumbell",
+            "bodypart": "calves",
+            "enabled": true
+        },
+        {
+            "name": "One Leg Calf Raise",
+            "equipment": "dumbell",
+            "bodypart": "calves",
+            "enabled": true
+        },
+        {
+            "name": "SM  Calf Raise",
+            "equipment": "sm",
+            "bodypart": "calves",
+            "enabled": true
+        },
+        {
+            "name": "Leg Press Calf Raise",
+            "equipment": "machine",
+            "bodypart": "calves",
+            "enabled": true
+        },
+        {
+            "name": "Seated Calf Raise Machine",
+            "equipment": "machine",
+            "bodypart": "calves",
+            "enabled": true
+        },
+        {
+            "name": "Calf Raise Machine",
+            "equipment": "machine",
+            "bodypart": "calves",
+            "enabled": true
+        }
+    ],
+    "Core": [
+        {
+            "name": "Cable Crunches",
+            "equipment": "cable",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Cable Crunches",
+            "equipment": "cable",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Seated Crunch Machine",
+            "equipment": "machine",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Ab Wheel Rollouts",
+            "equipment": "bodyweight",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Decline Push Ups",
+            "equipment": "bodyweight",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Decline Situp",
+            "equipment": "bodyweight",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Hanging Leg Raises",
+            "equipment": "bodyweight",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Knee Raises",
+            "equipment": "bodyweight",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Leg Raises",
+            "equipment": "bodyweight",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Lying Leg Raises",
+            "equipment": "bodyweight",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Planks",
+            "equipment": "bodyweight",
+            "bodypart": "abs",
+            "enabled": true
+        },
+        {
+            "name": "Seated Knee Tucks",
+            "equipment": "bodyweight",
+            "bodypart": "abs",
+            "enabled": true
+        }
+    ]
+}
