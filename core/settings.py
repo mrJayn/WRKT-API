@@ -26,85 +26,85 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# ⚠️ SECURITY WARNING: keep the secret key used in production secret!
+# SECURITY WARNING: keep secret key used in production secret!
 SECRET_KEY = os.getenv("SECRET_KEY")
 
-# ⚠️ SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG", False)
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = os.getenv("DEBUG") == "True"
 
-# ADMINS = [ ('Michael Jayne', 'm63jayne@gmail.com'), ]
+if DEBUG:
+    load_dotenv(".env.local")
+else:
+    load_dotenv(".env.prod")
 
 ALLOWED_HOSTS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    # "127.0.0.1",
-    # "localhost",
-    os.getenv("DEV_HOST"),
-    # "http://%s:8000" % os.getenv("DEV_HOST"),
+    os.getenv("BASE_URL"),
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "http://%s:3000" % os.getenv("DEV_HOST"),
+    os.getenv("CLIENT_URL"),
 ]
 
+
 INSTALLED_APPS = [
+    # Base
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # 3rd Party
+    # Requirements
     "phonenumber_field",
     "django_filters",
     "rest_framework",
     "rest_framework_simplejwt",
     "rest_framework_simplejwt.token_blacklist",
     "corsheaders",
-    # My Apps
+    # API
     "api",
-    "api.authentication",
+    "api.auth",
+    "api.exercises",
     "api.users",
 ]
 
 REST_FRAMEWORK = {
-    "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.IsAuthenticated",
-    ],
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework.authentication.BasicAuthentication",
         "rest_framework.authentication.SessionAuthentication",
         "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ],
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.IsAuthenticated",
     ],
     "DEFAULT_FILTER_BACKENDS": [
         "django_filters.rest_framework.DjangoFilterBackend",
     ],
 }
 
-# https://django-rest-framework-simplejwt.readthedocs.io/en/latest/settings.html
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=5),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=14),
     "ROTATE_REFRESH_TOKENS": True,
     "BLACKLIST_AFTER_ROTATION": True,
-    #
-    "TOKEN_OBTAIN_SERIALIZER": "api.authentication.serializers.LoginSerializer",
+    # View modules
+    # Serializer modules
+    "TOKEN_OBTAIN_SERIALIZER": "api.auth.serializers.LoginSerializer",
     # "TOKEN_REFRESH_SERIALIZER": "rest_framework_simplejwt.serializers.TokenRefreshSerializer",
     # "TOKEN_VERIFY_SERIALIZER": "rest_framework_simplejwt.serializers.TokenVerifySerializer",
     # "TOKEN_BLACKLIST_SERIALIZER": "rest_framework_simplejwt.serializers.TokenBlacklistSerializer",
 }
 
-# django-phonenumber-field -
-# PHONENUMBER_DB_FORMAT = "E164"
-# PHONENUMBER_DEFAULT_FORMAT = "E164"
-PHONENUMBER_DEFAULT_REGION = "US"
 
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware",
+    # "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -117,7 +117,7 @@ ROOT_URLCONF = "core.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -132,30 +132,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "core.wsgi.application"
 
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
-
-LANGUAGE_CODE = "en-us"
-
-TIME_ZONE = "America/New_York"
-
-USE_TZ = True
-
-USE_I18N = True
-
-####################
-#                Auth               #
-####################
-
-
-AUTH_USER_MODEL = "api_users.CustomUser"
-
-AUTH_PROFILE_MODULE = "api_users.Profile"
 
 AUTH_PASSWORD_VALIDATORS = [
     # {
@@ -173,30 +155,43 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 AUTHENTICATION_BACKENDS = [
-    "api.backends.UsernameFieldAuthentication",
     "django.contrib.auth.backends.ModelBackend",
 ]
 
 
-INACTIVE_USER_LIFESPAN_DAYS = 30
+# Sessions
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
 
-# ??? -
+
+# Internationalization
+LANGUAGE_CODE = "en-us"
+TIME_ZONE = "America/New_York"
+USE_TZ = True
+USE_I18N = True
+
+
+# Media files -- DELETE
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
 
-# ??? - https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-# 30 days
-# ???
-SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
-
-
-####################
-#           Static Files          #
-####################
-
-# ??? - https://docs.djangoproject.com/en/4.2/howto/static-files/
+# Static files
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "static"
+
+
+# Default auto field for models.
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# Auth Model Directories
+AUTH_USER_MODEL = "api_users.CustomUser"
+AUTH_PROFILE_MODULE = "api_users.Profile"
+
+
+PHONENUMBER_DEFAULT_REGION = "US"
+
+
+INACTIVE_USER_LIFESPAN_DAYS = 30
+
+
+# API = {}

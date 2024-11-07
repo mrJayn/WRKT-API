@@ -15,9 +15,9 @@ class ProgramViewset(OrderedModelViewSet):
     def get_queryset(self):
         return self.request.user.profile.programs.all()
 
-    def create_obj(self, request, obj):
+    def get_serializer_data(self, request, obj):
         obj["profile"] = request.user.profile.pk
-        return super().create_obj(request, obj)
+        return super().get_serializer_data(request, obj)
 
 
 class WeekViewset(DynamicFieldsModelViewset):
@@ -25,8 +25,9 @@ class WeekViewset(DynamicFieldsModelViewset):
     A viewset for the `Week` model that can only list instances.
     """
 
+    queryset = Week.objects.all()
     serializer_class = WeekSerializer
     http_method_names = ["get", "patch"]
 
     def get_queryset(self):
-        return Week.objects.filter(program__profile=self.request.user.profile)
+        return self.queryset.filter(program__profile=self.request.user.profile)

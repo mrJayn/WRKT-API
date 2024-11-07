@@ -1,25 +1,41 @@
-from django.db.models.signals import pre_save, post_save, pre_delete, post_delete
-from django.dispatch import receiver
-from django.utils.translation import gettext_lazy as _
+from django.dispatch import Signal, receiver
+from django.db.models.signals import post_save
+from api.users.models import Workout, Day, Program, Week
 
-from api.users.models import *
+# New user has registered.
+user_registered = Signal()
+
+# User activated their account.
+user_activated = Signal()
+
+# User has been updated.
+user_updated = Signal()
 
 
+# New Workout created.
 @receiver(post_save, sender=Workout)
 def add_days(sender, instance, created, **kwargs):
-    """A `Workout` post save signal which creates it's related `Day` models."""
+    """
+    Create `Day` models related to the workout instance if it was created.
+    """
     if created:
-        for day_num in range(1, 8):
+        for n in range(getattr(instance, "num_days", Day.MIN_COUNT)):
             Day.objects.get_or_create(
                 workout=instance,
-                day_id=day_num,
-                name=_("Day %s" % day_num),
+                day_index=(n + 1),
+                name="Day %d" % (n + 1),
             )
 
 
+# New Program created
 @receiver(post_save, sender=Program)
 def add_weeks(sender, instance, created, **kwargs):
-    """A `Program` post save signal which creates it's related `Week` models."""
+    """
+    Create `Week` models related to the program instance if it was created.
+    """
     if created:
-        for week_id in range(1, (instance.duration + 1)):
-            Week.objects.get_or_create(program=instance, week_id=week_id)
+        for n in range(getattr(instance, "duration", Week.MIN_COUNT)):
+            Week.objects.get_or_create(
+                program=instance,
+                week_id=(n + 1),
+            )

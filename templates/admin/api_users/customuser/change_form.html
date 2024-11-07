@@ -1,0 +1,55 @@
+{% extends "admin/change_form.html" %} 
+{% load i18n admin_urls static admin_modify %} 
+
+{% block extrastyle %}
+  {{ block.super }}
+  <style>
+      #customuser-links h2{
+          margin: 0;
+          padding: 8px;
+          font-weight: 400;
+          font-size: 0.8125rem;
+          text-align: left;
+          background: var(--primary);
+          color: var(--header-link-color);
+      }
+  	#customuser-links ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+  		width: 100%;		
+          margin-block-start: 1em;
+          margin-block-end: 2em;
+  		padding-inline-start: 40px;
+  	}
+  	#customuser-links a {
+          font-size: 0.8125rem;
+  	}
+  	@media (max-width: 768px) {
+  		#customuser-links ul {
+              flex-direction: column;            
+              justify-content: center;
+              margin-block-start: -1em;
+  			padding-inline-start: 0px;
+  		}
+          #customuser-links li {
+              margin-left: 0px;
+          }
+  	}
+  </style>
+{% endblock %} 
+
+{% block object-tools %} 
+  {{ block.super }} 
+  {% if change and not is_popup and customuser_links %}
+  <div id="customuser-links">
+      <ul class="object-tools">
+          {% for link in customuser_links %}
+          <li>
+              <a href="{{link.href}}">{{link.name}}</a>
+          </li>
+          {% endfor %}
+      </ul>
+  </div>
+  {% endif %} 
+{% endblock %}

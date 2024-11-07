@@ -1,10 +1,17 @@
-from django.apps import AppConfig
+from django.apps import AppConfig, apps
+from django.db.models.signals import pre_save, post_save, post_delete
 
 
 class UsersConfig(AppConfig):
-    default_auto_field = "django.db.models.BigAutoField"
     name = "api.users"
     label = "api_users"
+    verbose_name = "users"
 
     def ready(self):
-        import api.users.signals
+        pass
+        # Implicitly connect signal handlers decorated with @receiver.
+        # from . import signals
+
+        # from .models import CustomUser, Profile
+
+        # post_save.connect(Profile.create_user_profile, sender=CustomUser)

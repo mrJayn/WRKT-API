@@ -1,0 +1,2497 @@
+{
+	"data": [
+		{
+			"model": "api__users.library_exercise",
+			"pk": 1,
+			"fields": {
+				"name": "bench_press",
+				"equipment": "barbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 2,
+			"fields": {
+				"name": "incline_bench_press",
+				"equipment": "barbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 3,
+			"fields": {
+				"name": "barbell_floor_press",
+				"equipment": "barbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 4,
+			"fields": {
+				"name": "decline_bench_press",
+				"equipment": "barbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 5,
+			"fields": {
+				"name": "landmine_chest_press",
+				"equipment": "barbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 6,
+			"fields": {
+				"name": "flat_db_press",
+				"equipment": "dumbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 7,
+			"fields": {
+				"name": "incline_db_press",
+				"equipment": "dumbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 8,
+			"fields": {
+				"name": "flat_db_fly",
+				"equipment": "dumbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 9,
+			"fields": {
+				"name": "incline_db_fly",
+				"equipment": "dumbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 10,
+			"fields": {
+				"name": "incline_db_hex_press",
+				"equipment": "dumbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 11,
+			"fields": {
+				"name": "db_floor_press",
+				"equipment": "dumbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 12,
+			"fields": {
+				"name": "db_pullovers",
+				"equipment": "dumbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 13,
+			"fields": {
+				"name": "one-arm_flat_db_press",
+				"equipment": "dumbell",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 14,
+			"fields": {
+				"name": "high_pulley_cable_crossover",
+				"equipment": "cable",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 15,
+			"fields": {
+				"name": "incline_cable_fly",
+				"equipment": "cable",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 16,
+			"fields": {
+				"name": "low_pulley_cable_crossover",
+				"equipment": "cable",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 17,
+			"fields": {
+				"name": "mid_pulley_cable_crossover",
+				"equipment": "cable",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 18,
+			"fields": {
+				"name": "sm_flat_bench_press",
+				"equipment": "sm",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 19,
+			"fields": {
+				"name": "sm_floor_press",
+				"equipment": "sm",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 20,
+			"fields": {
+				"name": "h.s._incline_press",
+				"equipment": "machine",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 21,
+			"fields": {
+				"name": "flat_chest_press_machine",
+				"equipment": "machine",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 22,
+			"fields": {
+				"name": "h.s._decline_press",
+				"equipment": "machine",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 23,
+			"fields": {
+				"name": "pec_deck",
+				"equipment": "machine",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 24,
+			"fields": {
+				"name": "dips",
+				"equipment": "bodyweight",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 25,
+			"fields": {
+				"name": "incline_push_ups",
+				"equipment": "bodyweight",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 26,
+			"fields": {
+				"name": "push_ups",
+				"equipment": "bodyweight",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 27,
+			"fields": {
+				"name": "flat_plate-loaded_press",
+				"equipment": "freeweight",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 28,
+			"fields": {
+				"name": "plate_raise_(chest)",
+				"equipment": "freeweight",
+				"bodypart": "chest"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 29,
+			"fields": {
+				"name": "barbell_deadlift",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 30,
+			"fields": {
+				"name": "overhand_bent_over_barbell_row",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 31,
+			"fields": {
+				"name": "underhand_bent_over_barbell_row",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 32,
+			"fields": {
+				"name": "rack_pulls",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 33,
+			"fields": {
+				"name": "barbell_t-bar_rows",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 34,
+			"fields": {
+				"name": "chest_supported_row",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 35,
+			"fields": {
+				"name": "t-bar_row",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 36,
+			"fields": {
+				"name": "close_grip_barbell_upright_row",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 37,
+			"fields": {
+				"name": "ez_bar_pullovers",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 38,
+			"fields": {
+				"name": "lying_incline_barbell_row",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 39,
+			"fields": {
+				"name": "pendlay_row",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 40,
+			"fields": {
+				"name": "snatch_grip_rack_pulls",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 41,
+			"fields": {
+				"name": "trap_bar_deadlift",
+				"equipment": "barbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 42,
+			"fields": {
+				"name": "lying_incline_db_overhand_rows",
+				"equipment": "dumbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 43,
+			"fields": {
+				"name": "lying_incline_neutral_grip_rows",
+				"equipment": "dumbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 44,
+			"fields": {
+				"name": "one-arm_db_row",
+				"equipment": "dumbell",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 45,
+			"fields": {
+				"name": "lat_pulldown",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 46,
+			"fields": {
+				"name": "underhand_lat_pulldown",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 47,
+			"fields": {
+				"name": "wide_grip_lat_pulldowns",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 48,
+			"fields": {
+				"name": "behind_the_neck_lat_pulldown",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 49,
+			"fields": {
+				"name": "cable_pullovers",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 50,
+			"fields": {
+				"name": "close_grip_lat_pulldown_(front)",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 51,
+			"fields": {
+				"name": "one-arm_cable_row",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 52,
+			"fields": {
+				"name": "one-arm_lat_pulldown",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 53,
+			"fields": {
+				"name": "straight_bar_cable_row",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 54,
+			"fields": {
+				"name": "underhand_cable_row",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 55,
+			"fields": {
+				"name": "v-bar_cable_row",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 56,
+			"fields": {
+				"name": "v-bar_close_grip_pulldown",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 57,
+			"fields": {
+				"name": "v-bar_pulldowns_into_the_waist",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 58,
+			"fields": {
+				"name": "wide_grip_lat_pulldown_(behind_neck)",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 59,
+			"fields": {
+				"name": "dante_rows",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 60,
+			"fields": {
+				"name": "leaning_rope_pulldown",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 61,
+			"fields": {
+				"name": "rope_pulldown",
+				"equipment": "cable",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 62,
+			"fields": {
+				"name": "sm_bent_over_rows",
+				"equipment": "sm",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 63,
+			"fields": {
+				"name": "sm_underhand_bent_over_rows",
+				"equipment": "sm",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 64,
+			"fields": {
+				"name": "h.s._overhand_rows",
+				"equipment": "machine",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 65,
+			"fields": {
+				"name": "h.s._one-arm_row",
+				"equipment": "machine",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 66,
+			"fields": {
+				"name": "iso-lateral_front_lat_pulldown",
+				"equipment": "machine",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 67,
+			"fields": {
+				"name": "iso-lateral_high_row",
+				"equipment": "machine",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 68,
+			"fields": {
+				"name": "iso-lateral_low_row",
+				"equipment": "machine",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 69,
+			"fields": {
+				"name": "machine_pullover",
+				"equipment": "machine",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 70,
+			"fields": {
+				"name": "chin_ups",
+				"equipment": "bodyweight",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 71,
+			"fields": {
+				"name": "pull_ups",
+				"equipment": "bodyweight",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 72,
+			"fields": {
+				"name": "hyperextenions_(back)",
+				"equipment": "bodyweight",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 73,
+			"fields": {
+				"name": "inverted_pull_up",
+				"equipment": "bodyweight",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 74,
+			"fields": {
+				"name": "rack_chins",
+				"equipment": "bodyweight",
+				"bodypart": "back"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 75,
+			"fields": {
+				"name": "barbell_shrugs",
+				"equipment": "barbell",
+				"bodypart": "traps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 76,
+			"fields": {
+				"name": "barbell_behind_the_back_shrugs",
+				"equipment": "barbell",
+				"bodypart": "traps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 77,
+			"fields": {
+				"name": "db_shrug",
+				"equipment": "dumbell",
+				"bodypart": "traps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 78,
+			"fields": {
+				"name": "cable_shrugs",
+				"equipment": "cable",
+				"bodypart": "traps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 79,
+			"fields": {
+				"name": "sm_shrugs",
+				"equipment": "sm",
+				"bodypart": "traps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 80,
+			"fields": {
+				"name": "sm_behind_the_back_shrug",
+				"equipment": "sm",
+				"bodypart": "traps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 81,
+			"fields": {
+				"name": "21s",
+				"equipment": "barbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 82,
+			"fields": {
+				"name": "barbell_curls",
+				"equipment": "barbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 83,
+			"fields": {
+				"name": "barbell_concentration_curl",
+				"equipment": "barbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 84,
+			"fields": {
+				"name": "seated_barbell_curl",
+				"equipment": "barbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 85,
+			"fields": {
+				"name": "wide_grip_barbell_curls",
+				"equipment": "barbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 86,
+			"fields": {
+				"name": "barbell_drag_curls",
+				"equipment": "barbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 87,
+			"fields": {
+				"name": "close_grip_barbell_curls",
+				"equipment": "barbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 88,
+			"fields": {
+				"name": "one-arm_barbell_curl",
+				"equipment": "barbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 89,
+			"fields": {
+				"name": "ez_bar_curls",
+				"equipment": "ez-bar",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 90,
+			"fields": {
+				"name": "ez_bar_close_grip_curls",
+				"equipment": "ez-bar",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 91,
+			"fields": {
+				"name": "ez_bar_drag_curl",
+				"equipment": "ez-bar",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 92,
+			"fields": {
+				"name": "ez_bar_preacher_curl",
+				"equipment": "ez-bar",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 93,
+			"fields": {
+				"name": "ez_bar_spider_curl",
+				"equipment": "ez-bar",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 94,
+			"fields": {
+				"name": "lying_incline_ez_bar_spider_curl",
+				"equipment": "ez-bar",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 95,
+			"fields": {
+				"name": "ez_bar_reverse_grip_curls",
+				"equipment": "ez-bar",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 96,
+			"fields": {
+				"name": "seated_alternate_db_curls",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 97,
+			"fields": {
+				"name": "seated_db_hammer_curls",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 98,
+			"fields": {
+				"name": "alt._db_curls",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 99,
+			"fields": {
+				"name": "alt._db_hammer_curls",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 100,
+			"fields": {
+				"name": "db_curls",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 101,
+			"fields": {
+				"name": "one-arm_cross_body_hammer_curl",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 102,
+			"fields": {
+				"name": "db_concentration_curl",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 103,
+			"fields": {
+				"name": "db_preacher_curl",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 104,
+			"fields": {
+				"name": "one-arm_concentration_hammer_curls",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 105,
+			"fields": {
+				"name": "one-arm_db_incline_preacher_curl",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 106,
+			"fields": {
+				"name": "alt._static_hold_db_curls",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 107,
+			"fields": {
+				"name": "lying_incline_db_spider_curls",
+				"equipment": "dumbell",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 108,
+			"fields": {
+				"name": "rope_cable_hammer_curls",
+				"equipment": "cable",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 109,
+			"fields": {
+				"name": "straight_bar_cable_curls",
+				"equipment": "cable",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 110,
+			"fields": {
+				"name": "cable_drag_curls",
+				"equipment": "cable",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 111,
+			"fields": {
+				"name": "reverse_grip_cable_curls",
+				"equipment": "cable",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 112,
+			"fields": {
+				"name": "lying_cable_curl",
+				"equipment": "cable",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 113,
+			"fields": {
+				"name": "one-arm_cable_concentration_curls",
+				"equipment": "cable",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 114,
+			"fields": {
+				"name": "one-arm_cable_curl",
+				"equipment": "cable",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 115,
+			"fields": {
+				"name": "one-arm_overhead_cable_concentration_curl",
+				"equipment": "cable",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 116,
+			"fields": {
+				"name": "machine_preacher_curl",
+				"equipment": "machine",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 117,
+			"fields": {
+				"name": "one-arm_machine_preacher_curl",
+				"equipment": "machine",
+				"bodypart": "biceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 118,
+			"fields": {
+				"name": "barbell_jm_press",
+				"equipment": "barbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 119,
+			"fields": {
+				"name": "close_grip_bench",
+				"equipment": "barbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 120,
+			"fields": {
+				"name": "incline_close_grip_bench",
+				"equipment": "barbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 121,
+			"fields": {
+				"name": "skullcrushers_(_to_head_)",
+				"equipment": "barbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 122,
+			"fields": {
+				"name": "overhead_ez_bar_tricep_extensions",
+				"equipment": "barbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 123,
+			"fields": {
+				"name": "skullcrushers_(_behind_head_)",
+				"equipment": "barbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 124,
+			"fields": {
+				"name": "incline_ez_bar_skullcrushers",
+				"equipment": "barbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 125,
+			"fields": {
+				"name": "off_the_floor_skullcrushers",
+				"equipment": "barbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 126,
+			"fields": {
+				"name": "db_tricep_kickbacks",
+				"equipment": "dumbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 127,
+			"fields": {
+				"name": "incline_tate_press",
+				"equipment": "dumbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 128,
+			"fields": {
+				"name": "cross_body_db_tricep_extension",
+				"equipment": "dumbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 129,
+			"fields": {
+				"name": "seated_overhead_two_arm_db_tricep_extension",
+				"equipment": "dumbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 130,
+			"fields": {
+				"name": "flat_db_skullcrushers",
+				"equipment": "dumbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 131,
+			"fields": {
+				"name": "incline_db_skullcrushers",
+				"equipment": "dumbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 132,
+			"fields": {
+				"name": "single_arm_overhead_db_tricep_ext",
+				"equipment": "dumbell",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 133,
+			"fields": {
+				"name": "rope_tricep_pushdowns",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 134,
+			"fields": {
+				"name": "straight_bar_tricep_pushdowns",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 135,
+			"fields": {
+				"name": "one-arm_overhand_tricep_pushdowns",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 136,
+			"fields": {
+				"name": "straight_bar_pushdowns_with_stretch",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 137,
+			"fields": {
+				"name": "tricep_cable_kickbacks",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 138,
+			"fields": {
+				"name": "overhead_rope_tricep_extensions",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 139,
+			"fields": {
+				"name": "one-arm_overhead_tricep_cable_extensions",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 140,
+			"fields": {
+				"name": "overhead_rope_tricep_extensions_(bent_over)",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 141,
+			"fields": {
+				"name": "seated_overhead_tricep_cable_extension",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 142,
+			"fields": {
+				"name": "two_arm_cable_tricep_samuri_extension",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 143,
+			"fields": {
+				"name": "cross_body_cable_tricep_extensions",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 144,
+			"fields": {
+				"name": "one-arm_underhand_tricep_pushdowns",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 145,
+			"fields": {
+				"name": "underhand_tricep_extensions",
+				"equipment": "cable",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 146,
+			"fields": {
+				"name": "sm_flat_close_grip_bench",
+				"equipment": "sm",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 147,
+			"fields": {
+				"name": "sm_jm_press",
+				"equipment": "sm",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 148,
+			"fields": {
+				"name": "sm_incline_close_grip_bench_press",
+				"equipment": "sm",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 149,
+			"fields": {
+				"name": "sm_incline_skullcrusher",
+				"equipment": "sm",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 150,
+			"fields": {
+				"name": "seated_dip_machine",
+				"equipment": "machine",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 151,
+			"fields": {
+				"name": "bench_dips",
+				"equipment": "bodyweight",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 152,
+			"fields": {
+				"name": "close_grip_diamond_push_ups",
+				"equipment": "bodyweight",
+				"bodypart": "triceps"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 153,
+			"fields": {
+				"name": "seated_shoulder_pin_press",
+				"equipment": "barbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 154,
+			"fields": {
+				"name": "seated_barbell_shoulder_press",
+				"equipment": "barbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 155,
+			"fields": {
+				"name": "barbell_military_press",
+				"equipment": "barbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 156,
+			"fields": {
+				"name": "bradford_press",
+				"equipment": "barbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 157,
+			"fields": {
+				"name": "landmine_one-arm_shoulder_press",
+				"equipment": "barbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 158,
+			"fields": {
+				"name": "barbell_front_raise",
+				"equipment": "barbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 159,
+			"fields": {
+				"name": "seated_barbell_behind_the_neck_shoulder_press",
+				"equipment": "barbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 160,
+			"fields": {
+				"name": "behind_the_neck_barbell_press",
+				"equipment": "barbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 161,
+			"fields": {
+				"name": "barbell_push_press",
+				"equipment": "barbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 162,
+			"fields": {
+				"name": "lying_incline_ez_bar_front_raise",
+				"equipment": "ez-bar",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 163,
+			"fields": {
+				"name": "underhand_ez_bar_front_raise",
+				"equipment": "ez-bar",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 164,
+			"fields": {
+				"name": "seated_db_shoulder_press",
+				"equipment": "dumbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 165,
+			"fields": {
+				"name": "seated_alternate_db_press",
+				"equipment": "dumbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 166,
+			"fields": {
+				"name": "db_front_raises",
+				"equipment": "dumbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 167,
+			"fields": {
+				"name": "seated_one-arm_shoulder_db_press",
+				"equipment": "dumbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 168,
+			"fields": {
+				"name": "seated_incline_one-arm_hammer_grip_front_raise",
+				"equipment": "dumbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 169,
+			"fields": {
+				"name": "lying_incline_db_front_raise",
+				"equipment": "dumbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 170,
+			"fields": {
+				"name": "incline_underhand_front_raise",
+				"equipment": "dumbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 171,
+			"fields": {
+				"name": "seated_arnold_press",
+				"equipment": "dumbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 172,
+			"fields": {
+				"name": "hammer-db_crossbody_front_raises",
+				"equipment": "dumbell",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 173,
+			"fields": {
+				"name": "cable_front_raise",
+				"equipment": "cable",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 174,
+			"fields": {
+				"name": "sm_seated_shoulder_press",
+				"equipment": "sm",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 175,
+			"fields": {
+				"name": "sm_behind_neck_shoulder_press",
+				"equipment": "sm",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 176,
+			"fields": {
+				"name": "seated_shoulder_press_machine",
+				"equipment": "machine",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 177,
+			"fields": {
+				"name": "reverse_shoulder_press_machine",
+				"equipment": "machine",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 178,
+			"fields": {
+				"name": "plate_front_raises",
+				"equipment": "freeweight",
+				"bodypart": "front_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 179,
+			"fields": {
+				"name": "leaning_ez_bar_side_lateral_raises",
+				"equipment": "ez-bar",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 180,
+			"fields": {
+				"name": "seated_db_side_lateral_raises",
+				"equipment": "dumbell",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 181,
+			"fields": {
+				"name": "db_side_lateral_raises",
+				"equipment": "dumbell",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 182,
+			"fields": {
+				"name": "chest_supported_db_lateral_raise",
+				"equipment": "dumbell",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 183,
+			"fields": {
+				"name": "lying_incline_db_side_lateral_raise",
+				"equipment": "dumbell",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 184,
+			"fields": {
+				"name": "db_y-raise",
+				"equipment": "dumbell",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 185,
+			"fields": {
+				"name": "db_side_lateral_partials",
+				"equipment": "dumbell",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 186,
+			"fields": {
+				"name": "one-arm_db_scarecrow",
+				"equipment": "dumbell",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 187,
+			"fields": {
+				"name": "one-arm_leaning_cable_side_lateral_raise",
+				"equipment": "cable",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 188,
+			"fields": {
+				"name": "seated_side_lateral_raise_machine",
+				"equipment": "machine",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 189,
+			"fields": {
+				"name": "side_lateral_raise_machine",
+				"equipment": "machine",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 190,
+			"fields": {
+				"name": "side_lateral_plate_raise",
+				"equipment": "freeweight",
+				"bodypart": "side_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 191,
+			"fields": {
+				"name": "wide_grip_barbell_upright_row",
+				"equipment": "barbell",
+				"bodypart": "side/rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 192,
+			"fields": {
+				"name": "ez_bar_front_raise",
+				"equipment": "ez-bar",
+				"bodypart": "side/rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 193,
+			"fields": {
+				"name": "db_upright_row",
+				"equipment": "dumbell",
+				"bodypart": "side/rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 194,
+			"fields": {
+				"name": "one-arm_leaning_upright_row",
+				"equipment": "dumbell",
+				"bodypart": "side/rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 195,
+			"fields": {
+				"name": "cable_upright_row",
+				"equipment": "cable",
+				"bodypart": "side/rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 196,
+			"fields": {
+				"name": "sm_upright_row",
+				"equipment": "sm",
+				"bodypart": "side/rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 197,
+			"fields": {
+				"name": "rear_delt_barbell_row",
+				"equipment": "barbell",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 198,
+			"fields": {
+				"name": "landmine_rear_delt_raise",
+				"equipment": "barbell",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 199,
+			"fields": {
+				"name": "rear_delt_swings",
+				"equipment": "dumbell",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 200,
+			"fields": {
+				"name": "seated_rear_delt_raises",
+				"equipment": "dumbell",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 201,
+			"fields": {
+				"name": "lying_incline_rear_delt_row",
+				"equipment": "dumbell",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 202,
+			"fields": {
+				"name": "one-arm_bent_over_rear_delt_fly",
+				"equipment": "dumbell",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 203,
+			"fields": {
+				"name": "two_arm_rear_delt_fly",
+				"equipment": "cable",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 204,
+			"fields": {
+				"name": "one-arm_cable_rear_delt_fly",
+				"equipment": "cable",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 205,
+			"fields": {
+				"name": "facepulls",
+				"equipment": "cable",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 206,
+			"fields": {
+				"name": "reverse_pec_deck",
+				"equipment": "machine",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 207,
+			"fields": {
+				"name": "band_pull_aparts",
+				"equipment": "bands",
+				"bodypart": "rear_delts"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 208,
+			"fields": {
+				"name": "barbell_back_squat",
+				"equipment": "barbell",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 209,
+			"fields": {
+				"name": "barbell_lunge",
+				"equipment": "barbell",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 210,
+			"fields": {
+				"name": "barbell_walking_lunges",
+				"equipment": "barbell",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 211,
+			"fields": {
+				"name": "landmine_squat",
+				"equipment": "barbell",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 212,
+			"fields": {
+				"name": "barbell_box_squat",
+				"equipment": "barbell",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 213,
+			"fields": {
+				"name": "db_walking_lunges",
+				"equipment": "dumbell",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 214,
+			"fields": {
+				"name": "v-bar_cable_squat",
+				"equipment": "cable",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 215,
+			"fields": {
+				"name": "sm_squat",
+				"equipment": "sm",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 216,
+			"fields": {
+				"name": "sm_lunge",
+				"equipment": "sm",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 217,
+			"fields": {
+				"name": "sm_box_squat",
+				"equipment": "sm",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 218,
+			"fields": {
+				"name": "leg_press",
+				"equipment": "machine",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 219,
+			"fields": {
+				"name": "single-leg_leg_press",
+				"equipment": "machine",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 220,
+			"fields": {
+				"name": "vertical_leg_press",
+				"equipment": "machine",
+				"bodypart": "quads/hams"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 221,
+			"fields": {
+				"name": "barbell_front_squat",
+				"equipment": "barbell",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 222,
+			"fields": {
+				"name": "barbell_step_ups",
+				"equipment": "barbell",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 223,
+			"fields": {
+				"name": "barbell_cannonball_squat",
+				"equipment": "barbell",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 224,
+			"fields": {
+				"name": "pendulum_squat",
+				"equipment": "barbell",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 225,
+			"fields": {
+				"name": "db_bulgarian_split_squat",
+				"equipment": "dumbell",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 226,
+			"fields": {
+				"name": "db_goblet_squat",
+				"equipment": "dumbell",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 227,
+			"fields": {
+				"name": "db_step_ups",
+				"equipment": "dumbell",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 228,
+			"fields": {
+				"name": "sm_bulgarian_squat",
+				"equipment": "sm",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 229,
+			"fields": {
+				"name": "sm_front_squat",
+				"equipment": "sm",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 230,
+			"fields": {
+				"name": "sm_sissy_squat",
+				"equipment": "sm",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 231,
+			"fields": {
+				"name": "hack_squat",
+				"equipment": "machine",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 232,
+			"fields": {
+				"name": "leg_extensions",
+				"equipment": "machine",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 233,
+			"fields": {
+				"name": "single-leg_leg_extensions",
+				"equipment": "machine",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 234,
+			"fields": {
+				"name": "bodyweight_sissy_squat",
+				"equipment": "bodyweight",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 235,
+			"fields": {
+				"name": "sissy_squat",
+				"equipment": "bodyweight",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 236,
+			"fields": {
+				"name": "pistol_squats",
+				"equipment": "bodyweight",
+				"bodypart": "quads"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 237,
+			"fields": {
+				"name": "barbell_good_mornings",
+				"equipment": "barbell",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 238,
+			"fields": {
+				"name": "barbell_rdl",
+				"equipment": "barbell",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 239,
+			"fields": {
+				"name": "one_leg_stiff_leg_deadlift",
+				"equipment": "barbell",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 240,
+			"fields": {
+				"name": "landmine_stiff_leg_deadlift",
+				"equipment": "barbell",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 241,
+			"fields": {
+				"name": "db_romanian_deadlift",
+				"equipment": "dumbell",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 242,
+			"fields": {
+				"name": "lying_db_hamstring_curl",
+				"equipment": "dumbell",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 243,
+			"fields": {
+				"name": "sm_good_morning",
+				"equipment": "sm",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 244,
+			"fields": {
+				"name": "sm_romanian_deadlift",
+				"equipment": "sm",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 245,
+			"fields": {
+				"name": "lying_hamstring_curl",
+				"equipment": "machine",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 246,
+			"fields": {
+				"name": "seated_leg_curl",
+				"equipment": "machine",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 247,
+			"fields": {
+				"name": "single-leg_hamstring_curl",
+				"equipment": "machine",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 248,
+			"fields": {
+				"name": "supported_hamstring_curl",
+				"equipment": "bodyweight",
+				"bodypart": "hamstrings"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 249,
+			"fields": {
+				"name": "barbell_reverse_lunge",
+				"equipment": "barbell",
+				"bodypart": "hams/glutes"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 250,
+			"fields": {
+				"name": "wide_stance_barbell_back_squat",
+				"equipment": "barbell",
+				"bodypart": "hams/glutes"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 251,
+			"fields": {
+				"name": "db_reverse_lunge",
+				"equipment": "dumbell",
+				"bodypart": "hams/glutes"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 252,
+			"fields": {
+				"name": "db_sumo_squat",
+				"equipment": "dumbell",
+				"bodypart": "hams/glutes"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 253,
+			"fields": {
+				"name": "sm_sumo_squat",
+				"equipment": "sm",
+				"bodypart": "hams/glutes"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 254,
+			"fields": {
+				"name": "sm_hip_thrust",
+				"equipment": "sm",
+				"bodypart": "hams/glutes"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 255,
+			"fields": {
+				"name": "hyperextensions",
+				"equipment": "bodyweight",
+				"bodypart": "hams/glutes"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 256,
+			"fields": {
+				"name": "barbell_hip_thrust",
+				"equipment": "barbell",
+				"bodypart": "glutes"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 257,
+			"fields": {
+				"name": "barbell_lateral_lunges",
+				"equipment": "barbell",
+				"bodypart": "ab/adductors"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 258,
+			"fields": {
+				"name": "abductor_machine",
+				"equipment": "machine",
+				"bodypart": "ab/adductors"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 259,
+			"fields": {
+				"name": "adduction_machine",
+				"equipment": "machine",
+				"bodypart": "ab/adductors"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 260,
+			"fields": {
+				"name": "seated_db_calf_raise",
+				"equipment": "dumbell",
+				"bodypart": "calves"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 261,
+			"fields": {
+				"name": "one_leg_calf_raise",
+				"equipment": "dumbell",
+				"bodypart": "calves"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 262,
+			"fields": {
+				"name": "sm__calf_raise",
+				"equipment": "sm",
+				"bodypart": "calves"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 263,
+			"fields": {
+				"name": "leg_press_calf_raise",
+				"equipment": "machine",
+				"bodypart": "calves"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 264,
+			"fields": {
+				"name": "seated_calf_raise_machine",
+				"equipment": "machine",
+				"bodypart": "calves"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 265,
+			"fields": {
+				"name": "calf_raise_machine",
+				"equipment": "machine",
+				"bodypart": "calves"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 266,
+			"fields": {
+				"name": "cable_crunches",
+				"equipment": "cable",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 267,
+			"fields": {
+				"name": "cable_crunches",
+				"equipment": "cable",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 268,
+			"fields": {
+				"name": "seated_crunch_machine",
+				"equipment": "machine",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 269,
+			"fields": {
+				"name": "ab_wheel_rollouts",
+				"equipment": "bodyweight",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 270,
+			"fields": {
+				"name": "decline_push_ups",
+				"equipment": "bodyweight",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 271,
+			"fields": {
+				"name": "decline_situp",
+				"equipment": "bodyweight",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 272,
+			"fields": {
+				"name": "hanging_leg_raises",
+				"equipment": "bodyweight",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 273,
+			"fields": {
+				"name": "knee_raises",
+				"equipment": "bodyweight",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 274,
+			"fields": {
+				"name": "leg_raises",
+				"equipment": "bodyweight",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 275,
+			"fields": {
+				"name": "lying_leg_raises",
+				"equipment": "bodyweight",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 276,
+			"fields": {
+				"name": "planks",
+				"equipment": "bodyweight",
+				"bodypart": "abs"
+			}
+		},
+		{
+			"model": "api__users.library_exercise",
+			"pk": 277,
+			"fields": {
+				"name": "seated_knee_tucks",
+				"equipment": "bodyweight",
+				"bodypart": "abs"
+			}
+		}
+	]
+}

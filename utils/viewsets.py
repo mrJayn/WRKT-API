@@ -1,14 +1,13 @@
-from typing import Any
-from rest_framework import status, viewsets
-from rest_framework.response import Response
-from rest_framework.settings import api_settings
-
 from django.utils.translation import gettext_lazy as _
+
+from rest_framework import status
+from rest_framework.response import Response
+from rest_framework.viewsets import ModelViewSet
 
 from utils.mixins import DynamicFieldsMixin
 
 
-class DynamicFieldsModelViewset(DynamicFieldsMixin, viewsets.ModelViewSet):
+class DynamicFieldsModelViewset(DynamicFieldsMixin, ModelViewSet):
     pass
 
 
@@ -24,23 +23,21 @@ class OrderedModelViewSet(DynamicFieldsModelViewset):
     ** REQUIRES that `serializer_class` is an `OrderedModelSerializer` subclass.
     """
 
-    # lookup_field = "order"
-
-    http_method_names = ["get", "post", "patch", "delete"]
-
-    def __init__(self, **kwargs: Any):
-        super().__init__(**kwargs)
-
-    def get_serializer_context(self):
-        context = super().get_serializer_context()
-        qs = self.get_queryset()
-        context["order_values"] = list(qs.values_list("order", flat=True))
-        context["qs_count"] = qs.count()
-        return context
+    http_method_names = [
+        "get",
+        "post",
+        "patch",
+        "delete",
+        "head",
+        "options",
+    ]
 
     def create(self, request, *args, **kwargs):
-        # initial_data = self.get_related_wrt_map()
-        data = self.create_obj(request, {})
+        """
+        Method to create an ordered model instance.
+        Handles the "order" field by default.
+        """
+        data = self.get_serializer_data(request, {})
         serializer = self.get_serializer(data=data)
         serializer.is_valid(raise_exception=True)
         instance = serializer.save()
@@ -50,19 +47,27 @@ class OrderedModelViewSet(DynamicFieldsModelViewset):
             status=status.HTTP_201_CREATED,
         )
 
-    def create_obj(self, request, obj):
-        """Modify the `obj` for the serializer to use as it's `data` kwarg ."""
+    def get_serializer_data(self, request, obj):
+        """
+        Prepare the `data` arg for the serializer class. Default dict that includes a calculated value for the "order" key .
+        """
+
+        # set order field
         order = request.data.get("order", None)
         if not order:
             order = self.get_queryset().get_next_order()
         obj["order"] = order
+
+        # set related fields
+        # wrt_map = self.get_wrt_map()
+        # if wrt_map is not None:
+        #     for k,v in wrt_map.items():
+        #         obj[k] = v
+
         return obj
 
-    @property
-    def allowed_methods(self):
-        allowed_methods = super().allowed_methods
-        # Remove the POST method if the max-count has been reached.
-        max_count = self.get_queryset().model.MAX_COUNT
-        if max_count is not None and max_count <= self.get_queryset().count():
-            return [i for i in allowed_methods if i != "POST"]
-        return allowed_methods
+    def get_wrt_map(self):
+        queryset = self.get_queryset()
+        if queryset.exists():
+            return queryset.first()._wrt_map(serialize=True)
+        return None

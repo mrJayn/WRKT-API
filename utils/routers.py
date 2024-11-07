@@ -1,114 +1,115 @@
-import itertools
-from rest_framework.routers import (
-    SimpleRouter,
-    Route,
-    DynamicRoute,
-    flatten,
-    escape_curly_brackets,
+from django.utils.translation import gettext_lazy as _
+from rest_framework.routers import SimpleRouter, Route, DynamicRoute
+from rest_framework.viewsets import ModelViewSet
+
+from itertools import filterfalse, tee
+
+
+def partition(pred, iterable):
+    """Use a predicate to partition entries into false entries and true entries"""
+    t1, t2 = tee(iterable)
+    return filterfalse(pred, t1), filter(pred, t2)
+
+
+LIST_ROUTE = Route(
+    url=r"{prefix}/$",
+    mapping={
+        "get": "list",
+        "post": "create",
+    },
+    name="{basename}s-list",
+    detail=False,
+    initkwargs={"suffix": "List"},
 )
-from django.core.exceptions import ImproperlyConfigured
-from django.urls import re_path
+
+DETAIL_ROUTE = Route(
+    url=r"{prefix}/{lookup}/$",
+    mapping={
+        "get": "retrieve",
+        "patch": "partial_update",
+        "delete": "destroy",
+    },
+    name="{basename}-detail",
+    detail=True,
+    initkwargs={"suffix": "Detail"},
+)
+
+DYNAMIC_LIST_ROUTE = DynamicRoute(
+    url=r"{prefix}/{url_path}/$",
+    name="{basename}s-{url_name}",
+    detail=False,
+    initkwargs={},
+)
+
+DYNAMIC_DETAIL_ROUTE = DynamicRoute(
+    url=r"{prefix}/{lookup}/{url_path}/$",
+    name="{basename}-{url_name}",
+    detail=True,
+    initkwargs={},
+)
 
 
-class CustomRouter(SimpleRouter):
-    """
-    A `SimpleRouter` which provides an `formatted` kwarg which defaults to False.\n
-        Setting `formatted` True, will remove the slash between the `prefix` and the `lookup`,\n and for plural actions "list" and "create", will append an "s" to the `prefix`.
-    """
-
+class APIRouter(SimpleRouter):
     routes = [
-        Route(
-            url=r"^{prefix}/$",
-            mapping={
-                "get": "list",
-                "post": "create",
-            },
-            name="{basename}-list",
-            detail=False,
-            initkwargs={"suffix": ""},
-        ),
-        DynamicRoute(
-            url=r"^{prefix}/{url_path}/$",
-            name="{basename}-{url_name}",
-            detail=False,
-            initkwargs={},
-        ),
-        Route(
-            url=r"^{prefix}{detail_separator}{lookup}/$",
-            mapping={
-                "get": "retrieve",
-                "patch": "partial_update",
-                "delete": "destroy",
-            },
-            name="{basename}-update",
-            detail=True,
-            initkwargs={"suffix": "Update"},
-        ),
-        DynamicRoute(
-            url=r"^{prefix}{detail_separator}{lookup}/{url_path}/$",
-            name="{basename}-{url_name}",
-            detail=True,
-            initkwargs={},
-        ),
+        LIST_ROUTE,
+        DYNAMIC_LIST_ROUTE,
+        DETAIL_ROUTE,
+        DYNAMIC_DETAIL_ROUTE,
     ]
 
-    def register(self, prefix, viewset, detail_separator=True, basename=None):
-        if basename is None:
-            basename = prefix.split("/")[-1].strip()
-        detail_separator = "/" if detail_separator else ""
-        self.registry.append((prefix, viewset, basename, detail_separator))
-        # invalidate the urls cache
-        if hasattr(self, "_urls"):
-            del self._urls
-
-    def get_urls(self):
-        ret = []
-        for prefix, viewset, basename, detail_separator in self.registry:
-            lookup = self.get_lookup_regex(viewset)
-            routes = self.get_routes(viewset)
-
-            for route in routes:
-                mapping = self.get_method_map(viewset, route.mapping)
-                if not mapping:
-                    continue
-                # Build the url pattern
-                regex = route.url.format(
-                    prefix=prefix,
-                    lookup=lookup,
-                    detail_separator=detail_separator,
-                )
-                # Check for missing prefix.
-                if not prefix and regex[:2] == "^/":
-                    regex = "^" + regex[2:]
-
-                initkwargs = route.initkwargs.copy()
-                initkwargs.update({"basename": basename, "detail": route.detail})
-
-                view = viewset.as_view(mapping, **initkwargs)
-                name = route.name.format(basename=basename)
-                ret.append(re_path(regex, view))  # name=name
-
-        return ret
+    def register(self, prefix, viewset, name=None):
+        if name is None:
+            name = prefix.split("/")[-1].strip().removesuffix("s")
+        return super().register(prefix, viewset, name)
 
 
-class SingleModelRouter(CustomRouter):
+class NestedRouter(SimpleRouter):
     routes = [
-        Route(
-            url=r"^{prefix}/$",
-            mapping={
-                "get": "retrieve",
-                "patch": "partial_update",
-                "delete": "destroy",
-            },
-            name="{basename}-detail",
-            detail=False,
-            initkwargs={"suffix": "Detail"},
-        ),
-        Route(
-            url=r"^{prefix}/add/$",
-            mapping={"post": "create"},
-            name="{basename}-create",
-            detail=False,
-            initkwargs={"suffix": "Create"},
-        ),
+        LIST_ROUTE,
+        DETAIL_ROUTE,
     ]
+
+    def register(self, *routes: tuple[str, ModelViewSet]):
+        """
+        Register multiple routes, each as a tuple containing `prefix`,`viewset`, and `basename`.
+
+        For each route provided, the `prefix` will be preceeded by the prefix of the previous route,
+        and the first route provided is conidered the "base".
+        """
+        acc_prefix = ""
+
+        for name, viewset in routes:
+            prefix = acc_prefix + name
+            self.registry.append((prefix, viewset, name))
+
+            # Get the accumulated prefix for the route.
+            lookup = self.get_lookup_regex(
+                viewset,
+                lookup_prefix=name.removesuffix("s") + "_",
+            )
+            acc_prefix = "%s/%s/" % (prefix, lookup)
+
+
+'''
+    A `SimpleRouter` that provides a custom `.register()` method and `routes` attribute.
+
+    { RouteTuple } - tuple[str, ModelViewSet]
+
+    **Usage:**
+    ``` py
+    api_router = ApiRouter()
+    # To register a single route:
+    >> .register( "foobar", FoobarModelViewset )
+    # To register multiple nested routes:
+    >> .register(("foo", FooViewSet ), ( "bar", BarViewSet ), ...)
+    """
+    Resulting URL Patterns:
+      1. "...foobars/" [ name="foobars-list"]
+      2. "...foobars/<pk>/" [ name="foobar-detail"]
+      3. "...foos/" [ name="foos-list"]
+      4. "...foos/<pk>/" [ name="foo-detail"]
+      5. "...foos/<foo_pk>/bars/" [ name="bars-list"]
+      6. "...foos/<foo_pk>/bars/<pk>/" [ name="bar-detail"]
+    """
+    ```
+'''

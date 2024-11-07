@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name="program",
             name="duration",
-            field=utils.fields.RangeIntegerField(
+            field=utils.fields.models.IntegerField(
                 default=4,
                 validators=[
                     django.core.validators.MinValueValidator(0),

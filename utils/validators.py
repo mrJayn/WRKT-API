@@ -1,4 +1,6 @@
-from django.core.validators import RegexValidator
+from phonenumber_field import phonenumber
+from django.core.exceptions import ValidationError
+from django.core.validators import RegexValidator, validate_email
 from django.utils.deconstruct import deconstructible
 from django.utils.translation import gettext_lazy as _
 
@@ -20,3 +22,16 @@ validate_phone_number = RegexValidator(
     _("Enter a valid phone number."),
     "invalid",
 )
+
+
+def is_email(value):
+    try:
+        validate_email(value)
+    except ValidationError:
+        return False
+    return True
+
+
+def is_phonenumber(value):
+    phone_number = phonenumber.to_python(value)
+    return phone_number and phone_number.is_valid()

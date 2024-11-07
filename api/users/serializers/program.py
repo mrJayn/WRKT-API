@@ -1,16 +1,42 @@
-from utils.serializers import OrderedModelSerializer, DynamicFieldsSerializer
+from utils.serializers import UserModelSerializer, OrderedUserModelSerializer
 from api.users.models import Program, Week
 
 
-class ProgramSerializer(OrderedModelSerializer):
-    class Meta:
-        model = Program
-        fields = "__all__"
-        # ["profile", "name", "startdate", "duration", "order", "is_active"]
+class WeekSerializer(UserModelSerializer):
+    """A ModelSerializer for model instances of the `Week` model class."""
 
+    # exercises = ExerciseSerializer(
+    #     read_only=True, many=True, fields=["id", "name", "sets"]
+    # )
 
-class WeekSerializer(DynamicFieldsSerializer):
     class Meta:
         model = Week
-        fields = "__all__"
-        # ["week_id"]
+        fields = [
+            "id",
+            "program",
+            "week_id",
+            # "exercises",
+        ]
+
+
+class ProgramSerializer(OrderedUserModelSerializer):
+    """A ModelSerializer for model instances of the `Program` model class."""
+
+    weeks = WeekSerializer(
+        read_only=True,
+        many=True,
+        fields=["id", "name"],
+    )
+
+    class Meta:
+        model = Program
+        fields = [
+            "id",
+            "profile",
+            "name",
+            "startdate",
+            "duration",
+            "order",
+            "is_active",
+            "weeks",
+        ]

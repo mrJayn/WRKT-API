@@ -1,8 +1,10 @@
-from utils.serializers import DynamicFieldsSerializer
+from utils.serializers import UserModelSerializer
 from api.users.models import LibraryExercise
 
 
-class LibraryExerciseSerializer(DynamicFieldsSerializer):
+class LibraryExerciseSerializer(UserModelSerializer):
+    """A ModelSerializer for model instances of the `LibraryExercise` model class."""
+
     class Meta:
         model = LibraryExercise
         fields = [
@@ -15,5 +17,6 @@ class LibraryExerciseSerializer(DynamicFieldsSerializer):
             "enabled",
             "custom",
         ]
-        read_only_fields = ["id"]
-        extra_kwargs = {"profile": {"write_only": True}}
+        extra_kwargs = {
+            "profile": {"write_only": True},
+        }

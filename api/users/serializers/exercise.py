@@ -1,28 +1,15 @@
 from rest_framework import serializers
-from utils.serializers import OrderedModelSerializer, DynamicFieldsSerializer
-from api.users.models import Exercise, SecondaryExercise, ExerciseSet, LibraryExercise
+from utils.serializers import UserModelSerializer, OrderedUserModelSerializer
 
-
-class SecondarySerializer(DynamicFieldsSerializer):
+'''
+class RelatedLibraryExerciseSerializer(UserModelSerializer):
     class Meta:
-        model = SecondaryExercise
-        fields = [
-            "exercise",
-            "name",
-            "sets",
-            "reps",
-            "weight",
-            "percent",
-            "calculated_weight",
-            "units",
-        ]
-        # extra_kwargs = {"exercise": {"write_only": True}}
+        model: LibraryExercise
 
 
-# =====
+class SetSerializer(OrderedUserModelSerializer):
+    """A ModelSerializer for model instances of the `ExerciseSet` model class."""
 
-
-class SetSerializer(OrderedModelSerializer):
     class Meta:
         model = ExerciseSet
         fields = [
@@ -34,80 +21,52 @@ class SetSerializer(OrderedModelSerializer):
             "percent",
             "calculated_weight",
         ]
-        # extra_kwargs = {"exercise": {"write_only": True}}
 
 
-# =====
+class ExerciseSerializer(OrderedUserModelSerializer):
+    """A ModelSerializer for model instances of the `Exercise` model class."""
 
-
-class ExerciseSerializer(OrderedModelSerializer):
-    def to_representation(self, instance):
-        ret = super().to_representation(instance)
-        if "library_ref" in ret and ret["library_ref"] is not None:
-            ret["library_ref"] = ret["library_ref"].pk
-        return ret
+    sets = SetSerializer(
+        many=True,
+        read_only=True,
+    )
+    # library_exercise = RelatedLibraryExerciseSerializer()
 
     class Meta:
         model = Exercise
-        fields = ["id", "day", "week", "name", "order", "library_ref"]
-        # extra_kwargs = {"day": {"write_only": True}, "week": {"write_only": True}}
-
-    def check_wrt_fields(self, validated_data):
-        """Checks if at least one related field is not None."""
-        wrt_field_names = self.context.get("wrt_field_names", None)
-        for field in wrt_field_names:
-            if validated_data.get(field, None) is not None:
-                return
-        raise serializers.ValidationError(
-            "At least one related field must have a non-null value."
-        )
+        fields = [
+            "id",
+            "order",
+            "day",
+            "week",
+            "name",
+            # "library_exercise",
+            "sets",
+        ]
+        # read_only_fields = ["sets", "library_exercise"]
 
     def create(self, validated_data):
-        self.check_wrt_fields(validated_data)
+        # Ensure that at least one of the Foreign Key fields has been provided.
+        if validated_data.get("day", validated_data.get("week", None)) is None:
+            raise serializers.ValidationError(
+                "At least one related field must have a non-null value."
+            )
         return super().create(validated_data)
 
+    # def to_representation(self, instance):
+    #     ret = super().to_representation(instance)
+    #     library_exercise = ret.get("library_exercise",None)
+    #     if isinstance(library_exercise,LibraryExercise):
+    #         ret["library_exercise"] = library_exercise.pk
+    #     return ret
 
-# =====
-
-
-class WorkoutExerciseSerializer(OrderedModelSerializer):
-    sets = SetSerializer(
-        many=True,
-        read_only=True,
-        fields=["id", "sets", "reps", "weight"],
-    )
-    secondary = SecondarySerializer(
-        read_only=True, fields=["name", "sets", "reps", "weight"]
-    )
-
-    class Meta:
-        model = Exercise
-        fields = ["id", "name", "order", "sets", "secondary"]
-        read_only_fields = ["sets", "secondary"]
-
-
-# =====
-
-
-class ProgramExerciseSerializer(OrderedModelSerializer):
-    sets = SetSerializer(
-        many=True,
-        read_only=True,
-        fields=["sets", "reps", "percent", "calculated_weight"],
-    )
-    secondary = SecondarySerializer(
-        read_only=True, fields=["name", "sets", "reps", "percent", "calculated_weight"]
-    )
-
-    class Meta:
-        model = Exercise
-        fields = ["name", "order", "library_max", "sets", "secondary"]
-
-    library_max = serializers.SerializerMethodField("get_library_max")
-
-    def get_library_max(self, obj):
-        fixed_name = str(obj.name).lower().replace(" ", "_")
-        instance = LibraryExercise.objects.filter(name=fixed_name)
-        if instance.exists():
-            return instance.max
-        return None
+    # def check_wrt_fields(self, validated_data):
+    #     """Ensure that at least one of the Foreign Key fields has been provided."""
+    #     wrt_field_names = self.context.get("wrt_field_names", None)
+    #     for field in wrt_field_names:
+    #         if validated_data.get(field, None) is not None:
+    #             return
+    #     raise serializers.ValidationError(
+    #         "At least one related field must have a non-null value."
+    #     )
+'''

@@ -1,11 +1,13 @@
 from django.db import models
+from django.db.models import F, Max
 from django.utils.translation import gettext_lazy as _
 
 
 class OrderedModelQuerySet(models.QuerySet):
+
     def get_next_order(self):
         """Get the next order value for the queryset."""
-        max_order = self.aggregate(models.Max("order")).get("order__max")
+        max_order = self.aggregate(Max("order")).get("order__max")
         return max_order + 1 if max_order is not None else 0
 
     def remove_ref(self, ref=None):
@@ -26,8 +28,43 @@ class OrderedModelQuerySet(models.QuerySet):
 
     def _shift_orders(self, value):
         """Increase or decrease all objects order by a value."""
-        return self.update(**{"order": models.F("order") + value})
+        return self.update(**{"order": F("order") + value})
 
 
 class OrderedModelManager(models.Manager.from_queryset(OrderedModelQuerySet)):
     pass
+
+
+# ========== ========== ==========
+
+
+class _UniqueActiveOrderedModelQuerySet(models.QuerySet):
+    def update_active(self, ref):
+        """
+        Update the "active" instance status changes,
+        """
+        if not ref.pk:
+            return
+
+        wrt_map = {
+            f.name: getattr(ref, f.name)
+            for f in ref._meta.concrete_fields
+            if isinstance(f, models.ForeignKey)
+        }
+
+        qs = self.filter(**wrt_map)
+        if ref.is_active != qs.get(pk=ref.pk).is_active:
+            qs = qs.exclude(pk=ref.pk)
+            if ref.is_active:
+                return qs.deactivate_all()
+            return qs.activate_next()
+
+    def deactivate_all(self):
+        if self.exists() and self.filter(is_active=True).exists():
+            return self.update(is_active=False)
+
+    def activate_next(self):
+        if self.exists():
+            pk = self.first().pk
+            self.filter(pk=pk).update(is_active=True)
+            return self.exclude(pk=pk).deactivate_all()

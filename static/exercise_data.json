@@ -1,0 +1,1389 @@
+{
+    "data": [
+        {
+            "name": "bench_press",
+            "equipment": "barbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "incline_bench_press",
+            "equipment": "barbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "barbell_floor_press",
+            "equipment": "barbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "decline_bench_press",
+            "equipment": "barbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "landmine_chest_press",
+            "equipment": "barbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "flat_db_press",
+            "equipment": "dumbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "incline_db_press",
+            "equipment": "dumbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "flat_db_fly",
+            "equipment": "dumbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "incline_db_fly",
+            "equipment": "dumbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "incline_db_hex_press",
+            "equipment": "dumbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "db_floor_press",
+            "equipment": "dumbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "db_pullovers",
+            "equipment": "dumbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "one-arm_flat_db_press",
+            "equipment": "dumbell",
+            "bodypart": "chest"
+        },
+        {
+            "name": "high_pulley_cable_crossover",
+            "equipment": "cable",
+            "bodypart": "chest"
+        },
+        {
+            "name": "incline_cable_fly",
+            "equipment": "cable",
+            "bodypart": "chest"
+        },
+        {
+            "name": "low_pulley_cable_crossover",
+            "equipment": "cable",
+            "bodypart": "chest"
+        },
+        {
+            "name": "mid_pulley_cable_crossover",
+            "equipment": "cable",
+            "bodypart": "chest"
+        },
+        {
+            "name": "sm_flat_bench_press",
+            "equipment": "sm",
+            "bodypart": "chest"
+        },
+        {
+            "name": "sm_floor_press",
+            "equipment": "sm",
+            "bodypart": "chest"
+        },
+        {
+            "name": "h.s._incline_press",
+            "equipment": "machine",
+            "bodypart": "chest"
+        },
+        {
+            "name": "flat_chest_press_machine",
+            "equipment": "machine",
+            "bodypart": "chest"
+        },
+        {
+            "name": "h.s._decline_press",
+            "equipment": "machine",
+            "bodypart": "chest"
+        },
+        {
+            "name": "pec_deck",
+            "equipment": "machine",
+            "bodypart": "chest"
+        },
+        {
+            "name": "dips",
+            "equipment": "bodyweight",
+            "bodypart": "chest"
+        },
+        {
+            "name": "incline_push_ups",
+            "equipment": "bodyweight",
+            "bodypart": "chest"
+        },
+        {
+            "name": "push_ups",
+            "equipment": "bodyweight",
+            "bodypart": "chest"
+        },
+        {
+            "name": "flat_plate-loaded_press",
+            "equipment": "freeweight",
+            "bodypart": "chest"
+        },
+        {
+            "name": "plate_raise_(chest)",
+            "equipment": "freeweight",
+            "bodypart": "chest"
+        },
+        {
+            "name": "barbell_deadlift",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "overhand_bent_over_barbell_row",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "underhand_bent_over_barbell_row",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "rack_pulls",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "barbell_t-bar_rows",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "chest_supported_row",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "t-bar_row",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "close_grip_barbell_upright_row",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "ez_bar_pullovers",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "lying_incline_barbell_row",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "pendlay_row",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "snatch_grip_rack_pulls",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "trap_bar_deadlift",
+            "equipment": "barbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "lying_incline_db_overhand_rows",
+            "equipment": "dumbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "lying_incline_neutral_grip_rows",
+            "equipment": "dumbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "one-arm_db_row",
+            "equipment": "dumbell",
+            "bodypart": "back"
+        },
+        {
+            "name": "lat_pulldown",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "underhand_lat_pulldown",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "wide_grip_lat_pulldowns",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "behind_the_neck_lat_pulldown",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "cable_pullovers",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "close_grip_lat_pulldown_(front)",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "one-arm_cable_row",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "one-arm_lat_pulldown",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "straight_bar_cable_row",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "underhand_cable_row",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "v-bar_cable_row",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "v-bar_close_grip_pulldown",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "v-bar_pulldowns_into_the_waist",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "wide_grip_lat_pulldown_(behind_neck)",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "dante_rows",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "leaning_rope_pulldown",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "rope_pulldown",
+            "equipment": "cable",
+            "bodypart": "back"
+        },
+        {
+            "name": "sm_bent_over_rows",
+            "equipment": "sm",
+            "bodypart": "back"
+        },
+        {
+            "name": "sm_underhand_bent_over_rows",
+            "equipment": "sm",
+            "bodypart": "back"
+        },
+        {
+            "name": "h.s._overhand_rows",
+            "equipment": "machine",
+            "bodypart": "back"
+        },
+        {
+            "name": "h.s._one-arm_row",
+            "equipment": "machine",
+            "bodypart": "back"
+        },
+        {
+            "name": "iso-lateral_front_lat_pulldown",
+            "equipment": "machine",
+            "bodypart": "back"
+        },
+        {
+            "name": "iso-lateral_high_row",
+            "equipment": "machine",
+            "bodypart": "back"
+        },
+        {
+            "name": "iso-lateral_low_row",
+            "equipment": "machine",
+            "bodypart": "back"
+        },
+        {
+            "name": "machine_pullover",
+            "equipment": "machine",
+            "bodypart": "back"
+        },
+        {
+            "name": "chin_ups",
+            "equipment": "bodyweight",
+            "bodypart": "back"
+        },
+        {
+            "name": "pull_ups",
+            "equipment": "bodyweight",
+            "bodypart": "back"
+        },
+        {
+            "name": "hyperextenions_(back)",
+            "equipment": "bodyweight",
+            "bodypart": "back"
+        },
+        {
+            "name": "inverted_pull_up",
+            "equipment": "bodyweight",
+            "bodypart": "back"
+        },
+        {
+            "name": "rack_chins",
+            "equipment": "bodyweight",
+            "bodypart": "back"
+        },
+        {
+            "name": "barbell_shrugs",
+            "equipment": "barbell",
+            "bodypart": "traps"
+        },
+        {
+            "name": "barbell_behind_the_back_shrugs",
+            "equipment": "barbell",
+            "bodypart": "traps"
+        },
+        {
+            "name": "db_shrug",
+            "equipment": "dumbell",
+            "bodypart": "traps"
+        },
+        {
+            "name": "cable_shrugs",
+            "equipment": "cable",
+            "bodypart": "traps"
+        },
+        {
+            "name": "sm_shrugs",
+            "equipment": "sm",
+            "bodypart": "traps"
+        },
+        {
+            "name": "sm_behind_the_back_shrug",
+            "equipment": "sm",
+            "bodypart": "traps"
+        },
+        {
+            "name": "21s",
+            "equipment": "barbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "barbell_curls",
+            "equipment": "barbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "barbell_concentration_curl",
+            "equipment": "barbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "seated_barbell_curl",
+            "equipment": "barbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "wide_grip_barbell_curls",
+            "equipment": "barbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "barbell_drag_curls",
+            "equipment": "barbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "close_grip_barbell_curls",
+            "equipment": "barbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "one-arm_barbell_curl",
+            "equipment": "barbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "ez_bar_curls",
+            "equipment": "ez-bar",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "ez_bar_close_grip_curls",
+            "equipment": "ez-bar",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "ez_bar_drag_curl",
+            "equipment": "ez-bar",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "ez_bar_preacher_curl",
+            "equipment": "ez-bar",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "ez_bar_spider_curl",
+            "equipment": "ez-bar",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "lying_incline_ez_bar_spider_curl",
+            "equipment": "ez-bar",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "ez_bar_reverse_grip_curls",
+            "equipment": "ez-bar",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "seated_alternate_db_curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "seated_db_hammer_curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "alt._db_curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "alt._db_hammer_curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "db_curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "one-arm_cross_body_hammer_curl",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "db_concentration_curl",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "db_preacher_curl",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "one-arm_concentration_hammer_curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "one-arm_db_incline_preacher_curl",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "alt._static_hold_db_curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "lying_incline_db_spider_curls",
+            "equipment": "dumbell",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "rope_cable_hammer_curls",
+            "equipment": "cable",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "straight_bar_cable_curls",
+            "equipment": "cable",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "cable_drag_curls",
+            "equipment": "cable",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "reverse_grip_cable_curls",
+            "equipment": "cable",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "lying_cable_curl",
+            "equipment": "cable",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "one-arm_cable_concentration_curls",
+            "equipment": "cable",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "one-arm_cable_curl",
+            "equipment": "cable",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "one-arm_overhead_cable_concentration_curl",
+            "equipment": "cable",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "machine_preacher_curl",
+            "equipment": "machine",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "one-arm_machine_preacher_curl",
+            "equipment": "machine",
+            "bodypart": "biceps"
+        },
+        {
+            "name": "barbell_jm_press",
+            "equipment": "barbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "close_grip_bench",
+            "equipment": "barbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "incline_close_grip_bench",
+            "equipment": "barbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "skullcrushers_(_to_head_)",
+            "equipment": "barbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "overhead_ez_bar_tricep_extensions",
+            "equipment": "barbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "skullcrushers_(_behind_head_)",
+            "equipment": "barbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "incline_ez_bar_skullcrushers",
+            "equipment": "barbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "off_the_floor_skullcrushers",
+            "equipment": "barbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "db_tricep_kickbacks",
+            "equipment": "dumbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "incline_tate_press",
+            "equipment": "dumbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "cross_body_db_tricep_extension",
+            "equipment": "dumbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "seated_overhead_two_arm_db_tricep_extension",
+            "equipment": "dumbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "flat_db_skullcrushers",
+            "equipment": "dumbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "incline_db_skullcrushers",
+            "equipment": "dumbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "single_arm_overhead_db_tricep_ext",
+            "equipment": "dumbell",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "rope_tricep_pushdowns",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "straight_bar_tricep_pushdowns",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "one-arm_overhand_tricep_pushdowns",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "straight_bar_pushdowns_with_stretch",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "tricep_cable_kickbacks",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "overhead_rope_tricep_extensions",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "one-arm_overhead_tricep_cable_extensions",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "overhead_rope_tricep_extensions_(bent_over)",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "seated_overhead_tricep_cable_extension",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "two_arm_cable_tricep_samuri_extension",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "cross_body_cable_tricep_extensions",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "one-arm_underhand_tricep_pushdowns",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "underhand_tricep_extensions",
+            "equipment": "cable",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "sm_flat_close_grip_bench",
+            "equipment": "sm",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "sm_jm_press",
+            "equipment": "sm",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "sm_incline_close_grip_bench_press",
+            "equipment": "sm",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "sm_incline_skullcrusher",
+            "equipment": "sm",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "seated_dip_machine",
+            "equipment": "machine",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "bench_dips",
+            "equipment": "bodyweight",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "close_grip_diamond_push_ups",
+            "equipment": "bodyweight",
+            "bodypart": "triceps"
+        },
+        {
+            "name": "seated_shoulder_pin_press",
+            "equipment": "barbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "seated_barbell_shoulder_press",
+            "equipment": "barbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "barbell_military_press",
+            "equipment": "barbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "bradford_press",
+            "equipment": "barbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "landmine_one-arm_shoulder_press",
+            "equipment": "barbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "barbell_front_raise",
+            "equipment": "barbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "seated_barbell_behind_the_neck_shoulder_press",
+            "equipment": "barbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "behind_the_neck_barbell_press",
+            "equipment": "barbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "barbell_push_press",
+            "equipment": "barbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "lying_incline_ez_bar_front_raise",
+            "equipment": "ez-bar",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "underhand_ez_bar_front_raise",
+            "equipment": "ez-bar",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "seated_db_shoulder_press",
+            "equipment": "dumbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "seated_alternate_db_press",
+            "equipment": "dumbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "db_front_raises",
+            "equipment": "dumbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "seated_one-arm_shoulder_db_press",
+            "equipment": "dumbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "seated_incline_one-arm_hammer_grip_front_raise",
+            "equipment": "dumbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "lying_incline_db_front_raise",
+            "equipment": "dumbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "incline_underhand_front_raise",
+            "equipment": "dumbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "seated_arnold_press",
+            "equipment": "dumbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "hammer-db_crossbody_front_raises",
+            "equipment": "dumbell",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "cable_front_raise",
+            "equipment": "cable",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "sm_seated_shoulder_press",
+            "equipment": "sm",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "sm_behind_neck_shoulder_press",
+            "equipment": "sm",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "seated_shoulder_press_machine",
+            "equipment": "machine",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "reverse_shoulder_press_machine",
+            "equipment": "machine",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "plate_front_raises",
+            "equipment": "freeweight",
+            "bodypart": "front_delts"
+        },
+        {
+            "name": "leaning_ez_bar_side_lateral_raises",
+            "equipment": "ez-bar",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "seated_db_side_lateral_raises",
+            "equipment": "dumbell",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "db_side_lateral_raises",
+            "equipment": "dumbell",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "chest_supported_db_lateral_raise",
+            "equipment": "dumbell",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "lying_incline_db_side_lateral_raise",
+            "equipment": "dumbell",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "db_y-raise",
+            "equipment": "dumbell",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "db_side_lateral_partials",
+            "equipment": "dumbell",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "one-arm_db_scarecrow",
+            "equipment": "dumbell",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "one-arm_leaning_cable_side_lateral_raise",
+            "equipment": "cable",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "seated_side_lateral_raise_machine",
+            "equipment": "machine",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "side_lateral_raise_machine",
+            "equipment": "machine",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "side_lateral_plate_raise",
+            "equipment": "freeweight",
+            "bodypart": "side_delts"
+        },
+        {
+            "name": "wide_grip_barbell_upright_row",
+            "equipment": "barbell",
+            "bodypart": "side/rear_delts"
+        },
+        {
+            "name": "ez_bar_front_raise",
+            "equipment": "ez-bar",
+            "bodypart": "side/rear_delts"
+        },
+        {
+            "name": "db_upright_row",
+            "equipment": "dumbell",
+            "bodypart": "side/rear_delts"
+        },
+        {
+            "name": "one-arm_leaning_upright_row",
+            "equipment": "dumbell",
+            "bodypart": "side/rear_delts"
+        },
+        {
+            "name": "cable_upright_row",
+            "equipment": "cable",
+            "bodypart": "side/rear_delts"
+        },
+        {
+            "name": "sm_upright_row",
+            "equipment": "sm",
+            "bodypart": "side/rear_delts"
+        },
+        {
+            "name": "rear_delt_barbell_row",
+            "equipment": "barbell",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "landmine_rear_delt_raise",
+            "equipment": "barbell",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "rear_delt_swings",
+            "equipment": "dumbell",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "seated_rear_delt_raises",
+            "equipment": "dumbell",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "lying_incline_rear_delt_row",
+            "equipment": "dumbell",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "one-arm_bent_over_rear_delt_fly",
+            "equipment": "dumbell",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "two_arm_rear_delt_fly",
+            "equipment": "cable",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "one-arm_cable_rear_delt_fly",
+            "equipment": "cable",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "facepulls",
+            "equipment": "cable",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "reverse_pec_deck",
+            "equipment": "machine",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "band_pull_aparts",
+            "equipment": "bands",
+            "bodypart": "rear_delts"
+        },
+        {
+            "name": "barbell_back_squat",
+            "equipment": "barbell",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "barbell_lunge",
+            "equipment": "barbell",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "barbell_walking_lunges",
+            "equipment": "barbell",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "landmine_squat",
+            "equipment": "barbell",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "barbell_box_squat",
+            "equipment": "barbell",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "db_walking_lunges",
+            "equipment": "dumbell",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "v-bar_cable_squat",
+            "equipment": "cable",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "sm_squat",
+            "equipment": "sm",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "sm_lunge",
+            "equipment": "sm",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "sm_box_squat",
+            "equipment": "sm",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "leg_press",
+            "equipment": "machine",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "single-leg_leg_press",
+            "equipment": "machine",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "vertical_leg_press",
+            "equipment": "machine",
+            "bodypart": "quads/hams"
+        },
+        {
+            "name": "barbell_front_squat",
+            "equipment": "barbell",
+            "bodypart": "quads"
+        },
+        {
+            "name": "barbell_step_ups",
+            "equipment": "barbell",
+            "bodypart": "quads"
+        },
+        {
+            "name": "barbell_cannonball_squat",
+            "equipment": "barbell",
+            "bodypart": "quads"
+        },
+        {
+            "name": "pendulum_squat",
+            "equipment": "barbell",
+            "bodypart": "quads"
+        },
+        {
+            "name": "db_bulgarian_split_squat",
+            "equipment": "dumbell",
+            "bodypart": "quads"
+        },
+        {
+            "name": "db_goblet_squat",
+            "equipment": "dumbell",
+            "bodypart": "quads"
+        },
+        {
+            "name": "db_step_ups",
+            "equipment": "dumbell",
+            "bodypart": "quads"
+        },
+        {
+            "name": "sm_bulgarian_squat",
+            "equipment": "sm",
+            "bodypart": "quads"
+        },
+        {
+            "name": "sm_front_squat",
+            "equipment": "sm",
+            "bodypart": "quads"
+        },
+        {
+            "name": "sm_sissy_squat",
+            "equipment": "sm",
+            "bodypart": "quads"
+        },
+        {
+            "name": "hack_squat",
+            "equipment": "machine",
+            "bodypart": "quads"
+        },
+        {
+            "name": "leg_extensions",
+            "equipment": "machine",
+            "bodypart": "quads"
+        },
+        {
+            "name": "single-leg_leg_extensions",
+            "equipment": "machine",
+            "bodypart": "quads"
+        },
+        {
+            "name": "bodyweight_sissy_squat",
+            "equipment": "bodyweight",
+            "bodypart": "quads"
+        },
+        {
+            "name": "sissy_squat",
+            "equipment": "bodyweight",
+            "bodypart": "quads"
+        },
+        {
+            "name": "pistol_squats",
+            "equipment": "bodyweight",
+            "bodypart": "quads"
+        },
+        {
+            "name": "barbell_good_mornings",
+            "equipment": "barbell",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "barbell_rdl",
+            "equipment": "barbell",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "one_leg_stiff_leg_deadlift",
+            "equipment": "barbell",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "landmine_stiff_leg_deadlift",
+            "equipment": "barbell",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "db_romanian_deadlift",
+            "equipment": "dumbell",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "lying_db_hamstring_curl",
+            "equipment": "dumbell",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "sm_good_morning",
+            "equipment": "sm",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "sm_romanian_deadlift",
+            "equipment": "sm",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "lying_hamstring_curl",
+            "equipment": "machine",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "seated_leg_curl",
+            "equipment": "machine",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "single-leg_hamstring_curl",
+            "equipment": "machine",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "supported_hamstring_curl",
+            "equipment": "bodyweight",
+            "bodypart": "hamstrings"
+        },
+        {
+            "name": "barbell_reverse_lunge",
+            "equipment": "barbell",
+            "bodypart": "hams/glutes"
+        },
+        {
+            "name": "wide_stance_barbell_back_squat",
+            "equipment": "barbell",
+            "bodypart": "hams/glutes"
+        },
+        {
+            "name": "db_reverse_lunge",
+            "equipment": "dumbell",
+            "bodypart": "hams/glutes"
+        },
+        {
+            "name": "db_sumo_squat",
+            "equipment": "dumbell",
+            "bodypart": "hams/glutes"
+        },
+        {
+            "name": "sm_sumo_squat",
+            "equipment": "sm",
+            "bodypart": "hams/glutes"
+        },
+        {
+            "name": "sm_hip_thrust",
+            "equipment": "sm",
+            "bodypart": "hams/glutes"
+        },
+        {
+            "name": "hyperextensions",
+            "equipment": "bodyweight",
+            "bodypart": "hams/glutes"
+        },
+        {
+            "name": "barbell_hip_thrust",
+            "equipment": "barbell",
+            "bodypart": "glutes"
+        },
+        {
+            "name": "barbell_lateral_lunges",
+            "equipment": "barbell",
+            "bodypart": "ab/adductors"
+        },
+        {
+            "name": "abductor_machine",
+            "equipment": "machine",
+            "bodypart": "ab/adductors"
+        },
+        {
+            "name": "adduction_machine",
+            "equipment": "machine",
+            "bodypart": "ab/adductors"
+        },
+        {
+            "name": "seated_db_calf_raise",
+            "equipment": "dumbell",
+            "bodypart": "calves"
+        },
+        {
+            "name": "one_leg_calf_raise",
+            "equipment": "dumbell",
+            "bodypart": "calves"
+        },
+        {
+            "name": "sm__calf_raise",
+            "equipment": "sm",
+            "bodypart": "calves"
+        },
+        {
+            "name": "leg_press_calf_raise",
+            "equipment": "machine",
+            "bodypart": "calves"
+        },
+        {
+            "name": "seated_calf_raise_machine",
+            "equipment": "machine",
+            "bodypart": "calves"
+        },
+        {
+            "name": "calf_raise_machine",
+            "equipment": "machine",
+            "bodypart": "calves"
+        },
+        {
+            "name": "cable_crunches",
+            "equipment": "cable",
+            "bodypart": "abs"
+        },
+        {
+            "name": "cable_crunches",
+            "equipment": "cable",
+            "bodypart": "abs"
+        },
+        {
+            "name": "seated_crunch_machine",
+            "equipment": "machine",
+            "bodypart": "abs"
+        },
+        {
+            "name": "ab_wheel_rollouts",
+            "equipment": "bodyweight",
+            "bodypart": "abs"
+        },
+        {
+            "name": "decline_push_ups",
+            "equipment": "bodyweight",
+            "bodypart": "abs"
+        },
+        {
+            "name": "decline_situp",
+            "equipment": "bodyweight",
+            "bodypart": "abs"
+        },
+        {
+            "name": "hanging_leg_raises",
+            "equipment": "bodyweight",
+            "bodypart": "abs"
+        },
+        {
+            "name": "knee_raises",
+            "equipment": "bodyweight",
+            "bodypart": "abs"
+        },
+        {
+            "name": "leg_raises",
+            "equipment": "bodyweight",
+            "bodypart": "abs"
+        },
+        {
+            "name": "lying_leg_raises",
+            "equipment": "bodyweight",
+            "bodypart": "abs"
+        },
+        {
+            "name": "planks",
+            "equipment": "bodyweight",
+            "bodypart": "abs"
+        },
+        {
+            "name": "seated_knee_tucks",
+            "equipment": "bodyweight",
+            "bodypart": "abs"
+        }
+    ]
+}

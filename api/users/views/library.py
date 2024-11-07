@@ -1,11 +1,6 @@
-from rest_framework import mixins, views, viewsets, generics, status, permissions
+from rest_framework import viewsets, status, permissions
 from rest_framework.decorators import action
 from rest_framework.response import Response
-
-from utils.viewsets import DynamicFieldsModelViewset
-
-from api.users.models import LibraryExercise
-from api.users.serializers import LibraryExerciseSerializer
 
 
 class IsCustomExercise(permissions.BasePermission):
@@ -23,14 +18,14 @@ class IsCustomExercise(permissions.BasePermission):
 3) library/<str:category>/<int:exercise_id> .... exercises detail.
 """
 
-
+'''
 class LibraryExerciseViewset(viewsets.ModelViewSet):
     """
     A viewset for the `LibraryExercise` model that can
     list, update, create, and remove instances.
     """
 
-    serializer_class = LibraryExerciseSerializer
+    # serializer_class = LibraryExerciseSerializer
     http_method_names = ["get", "post", "patch", "delete"]
     default_obj_editable_fields = ["max", "enabled"]
     max_custom_objs = 30
@@ -82,3 +77,5 @@ class LibraryExerciseViewset(viewsets.ModelViewSet):
     @action(detail=False, methods=["get"], url_path="custom")
     def customs_list(self, request):
         return super().list(request)
+
+'''

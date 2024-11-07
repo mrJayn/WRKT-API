@@ -21,9 +21,10 @@ class Program(OrderedModel):
     )
     startdate = models.DateField(
         _("start date"),
-        auto_now_add=True,
+        auto_now_add=False,
         blank=True,
         null=True,
+        default=now,
     )
     duration = models.PositiveIntegerField(
         _("duration"),
@@ -52,6 +53,9 @@ class Week(models.Model):
         related_name="weeks",
     )
     week_id = models.PositiveIntegerField(editable=False)
+
+    MIN_COUNT = 4
+    MAX_COUNT = 16
 
     def __str__(self):
         return _("{} Week({})").format(self.program.__str__(), self.week_id)

@@ -1,0 +1,18 @@
+#
+# --- NOT IMPLEMENTED YET ---
+#
+# Learn more about the 'pre-commit' framework here
+# https://pre-commit.com/
+#
+#
+# Good exmaple here
+# https://github.com/pre-commit/pre-commit/blob/main/.pre-commit-config.yaml
+#
+# Use 'djhtml' to format html files ( below )
+# https://pypi.org/project/djhtml/0.0.3/
+
+# repos:
+# - repo: https://github.com/rtts/djhtml
+#   rev: main
+#   hooks:
+#   - id: djhtml

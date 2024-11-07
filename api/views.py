@@ -1,45 +1,45 @@
-from rest_framework import generics, permissions
+import re
+
+from django.urls.resolvers import get_resolver
+
+from rest_framework import status
+from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
-from rest_framework.reverse import reverse
-from rest_framework.throttling import UserRateThrottle
+from rest_framework.views import APIView
 
-from django.core.exceptions import ObjectDoesNotExist
-
-from static.routes import ROUTES
+from utils.text import camel_case
 
 
-class OncePerDayUserThrottle(UserRateThrottle):
-    rate = "1/day"
+class APIPingView(APIView):
+    """View to test server reachability."""
 
-
-class RoutesPermission(permissions.BasePermission):
-    def has_object_permission(self, request, view, obj):
-        if obj.get("url")[:5] == "/user":
-            return bool(request.user and request.user.is_authenticated)
-        return True
-
-
-# ==========
-
-
-class RoutesView(generics.RetrieveAPIView):
-    def retrieve(self, request, *args, **kwargs):
-        name = kwargs.get("name", None)
-        if name:
-            obj = ROUTES.get(name, None)
-            if obj is None:
-                raise ObjectDoesNotExist("Route does not exist.")
-            return Response(obj)
-        return Response(ROUTES)
-
-    """
-    # Good ✔️ - http://example.com/foobar/
-    # Bad   ❌ - /foobar
+    permission_classes = []
 
     def get(self, request):
-        year = now().year
-        data = {
-            "workout-list-url": reverse("year-summary", args=[year], request=request)
-        }
-        return Response(data)
-    """
+        return Response(
+            {
+                "status": "online",
+                "message": "Server is connected",
+            },
+            status=status.HTTP_200_OK,
+        )
+
+
+class APIRoutesView(APIView):
+    """View to list all routes."""
+
+    http_method_names = ["get", "head"]
+    renderer_classes = [JSONRenderer]
+
+    def get(self, request):
+        lookups = get_resolver().reverse_dict
+        routes = {}
+
+        for name in reversed(lookups.keys()):
+            if isinstance(name, str):
+                uri = lookups[name][0][0][0]
+                uri = re.sub(r"\%\((?P<group>\w+)\)s", r":\g<group>", uri)
+                uri = uri.removeprefix("api/").removesuffix("/")
+                routes[camel_case(name)] = uri
+
+        return Response(routes)
